@@ -1,0 +1,63 @@
+.navFull {
+    background: black;
+}
+
+#dropDown {
+    color: white;
+    font-size: 30px;
+}
+
+.dropDownItem {
+    font-size: 30px;
+    width: 212px;
+    text-align: center;
+}
+
+.navbar-toggler {
+    background: #1b9fbd;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.logoImg {
+    position: relative;
+    right: 25px;
+}
+
+.navWrap {
+    position: relative;
+    margin: 0 auto;
+}
+
+.navItem {
+    font-size: 30px;
+    color: white;
+    margin: 0 25px 0 25px;
+}
+
+.navItem:hover,
+#dropDown:hover {
+    transition: all .25s ease-out;
+    color: #1b9fbd;
+    border-bottom: 1px solid #1b9fbd;
+}
+
+
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 992px) {
+    .navItem {
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    .dropDownItem {
+        margin: 0 auto;
+        
+    }
+}
+
+@media (min-width: 992px) {}
