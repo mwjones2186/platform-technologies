@@ -13,7 +13,7 @@ export default function Navigation() {
 
 
                 <NavLink className='logoImg' href='/'>
-                    <img src={Logo} />
+                    <img src={Logo} alt="camera img" />
                 </NavLink>
 
                 <Nav className='navWrap'>
@@ -29,7 +29,7 @@ export default function Navigation() {
                     <NavLink className='navItem' href='/about'>About</NavLink>
                     <NavLink className='navItem login' href='/contact'>Contact Us</NavLink>
 
-                    {/* <div className='socialWrap'>
+                    <div className='socialWrap'> 
                         <a target='_blank' rel="noreferrer" href='https://instagram.com'>
                             <FontAwesomeIcon className='socials' icon={faInstagram} />
                         </a>
@@ -37,7 +37,7 @@ export default function Navigation() {
                         <a target='_blank' rel="noreferrer" href='https://facebook.com'>
                             <FontAwesomeIcon className='socials' icon={faFacebook} />
                         </a>
-                    </div> */}
+                    </div> 
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
