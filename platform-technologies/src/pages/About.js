@@ -39,7 +39,7 @@ export default function About() {
                             alt="Steve Jones">
                         </img>
                         <h4>Steve Jones</h4>
-                        <h5>CEO</h5>
+                        <h5>Chief Dork Officer</h5>
                             <ul>
                                 <h6>24+ Years Medical Device Experieince:</h6>
 
