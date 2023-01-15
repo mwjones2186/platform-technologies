@@ -13,23 +13,23 @@ export default function Navigation() {
 
 
                 <NavLink className='logoImg' href='/'>
-                    <img src={Logo} />
+                    <img src={Logo} alt="camera img" />
                 </NavLink>
 
                 <Nav className='navWrap'>
 
                     <NavLink className='navItem' href='/'>Home</NavLink>
-
-                    <NavDropdown id='dropDown' className='navItem' title="Technologies">
+                    <NavLink className='navItem login' href='/about'>Who We Are</NavLink>
+                    <NavLink className='navItem login' href='/technology'>Technology</NavLink>
+                    <NavLink className='navItem' href='/literature'>Literature</NavLink>
+                    <NavLink className='navItem' href='/contactUs'>Contact Us</NavLink>
+                   
+                    {/* <NavDropdown id='dropDown' className='navItem' title="Technologies">
                         <NavDropdown.Item className='dropDownItem' href="#action/3.1">Visibot</NavDropdown.Item>
                         <NavDropdown.Item className='dropDownItem' href="#action/3.2">Images</NavDropdown.Item>
-                    </NavDropdown>
-
-                    <NavLink className='navItem' href='/documents'>Documents</NavLink>
-                    <NavLink className='navItem' href='/about'>About</NavLink>
-                    <NavLink className='navItem login' href='/contact'>Contact Us</NavLink>
-
-                    {/* <div className='socialWrap'>
+                    </NavDropdown> */}
+                   
+                    <div className='socialWrap'> 
                         <a target='_blank' rel="noreferrer" href='https://instagram.com'>
                             <FontAwesomeIcon className='socials' icon={faInstagram} />
                         </a>
@@ -37,7 +37,7 @@ export default function Navigation() {
                         <a target='_blank' rel="noreferrer" href='https://facebook.com'>
                             <FontAwesomeIcon className='socials' icon={faFacebook} />
                         </a>
-                    </div> */}
+                    </div> 
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
