@@ -5,16 +5,52 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 import publication1 from "../assets/publications/publication1.pdf"
 import publication2 from "../assets/publications/publication2.pdf"
+import publication3 from '../assets/publications/publication3.pdf'
+import publication4 from '../assets/publications/publication4.pdf'
+import publication5 from '../assets/publications/publication5.pdf'
+import publication6 from '../assets/publications/publication6.pdf'
+import publication7 from '../assets/publications/publication7.pdf'
+import publication8 from '../assets/publications/publication8.pdf'
+import publication9 from '../assets/publications/publication9.pdf'
 
-const images = [
+const pdf = [
     {
         image: publication1,
-        title: "Moving camera in human body"
+        title: "Insertable Surgical Imaging Device with Pan, Tilt, Zoom, and Lighting"
     },
     {
         image: publication2,
-        title: "Cameras can flex says me"
+        title: "Insertable Surgical Imaging Device with Pan, Tilt, Zoom, and Lighting"
     },
+    {
+      image: publication3,
+      title: "Insertable Stereoscopic 3D Surgical Imaging Device with Pan and Tilt"
+    },
+    {
+      image: publication4,
+      title: "Comparison of Monoscopic Insertable, Remotely Controlled Imaging Device With a Standard Laparoscope in a Porcine Model"
+    },
+    {
+      image: publication5,
+      title: "In-Vivo Pan/Tilt Endoscope with Integrated Light Source"
+    },
+    {
+      image: publication6,
+      title: "Initial trial of a stereoscopic, insertable, remotely controlled camera for minimal access surgery"
+    },
+    {
+      image: publication7,
+      title: "An Online Learning Approach To In-Vivo Tracking Using Synergistic Features"
+    },
+    {
+      image: publication8,
+      title: "Learning-Based Configuration Estimation of a Multi-Segment Continuum Robot"
+    },
+    {
+      image: publication9,
+      title: "Appearance learning for 3D tracking of robotic surgical tools"
+    },
+
 ]
 
 
@@ -23,37 +59,33 @@ const images = [
 
 
 export default function MyPublications() {
-
-       
+  
     return (
+
       <Box 
-      sx={{ px:2 }}
+      sx={{ px:3 }}
       >
       <ImageList variant="masonry" cols={3} gap={8}>
-        {images.map((item) => (
+        {pdf.map((item) => (
           <ImageListItem key={item.image}>
-            <img
-              src={`${item.image}?w=248&fit=crop&auto=format`}
-              srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
+            <iframe 
+            
+              src={`${item.image}`}
+              srcSet={`${item.image}`}
               alt={item.title}
               loading="lazy"
             />
+            
             <ImageListItemBar
             title={item.title}
-            // subtitle={item.author}
-            // actionIcon={
-            //   <IconButton
-            //     sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
-            //     aria-label={`info about ${item.title}`}
-            //   >
-              
-            //   </IconButton>
-            // }
-          />
+            />
+
           </ImageListItem>
         ))}
       </ImageList>
     </Box>
     );
+
+    
 
 }

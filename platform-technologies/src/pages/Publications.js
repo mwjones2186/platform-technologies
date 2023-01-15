@@ -5,14 +5,20 @@ import MyPublications from "../components/MyPublications";
 export default function Publications() {
     return (
         <>
-             <div>
+        <div>
             <Container>
             <h1 className="galleryH1">Publications</h1> 
+            <h3>Publications report on both the development of the Visibot technology and pre-clinical trials demonstrating proof of concept</h3>
+            <h5>For more information please reach out to us at sjones@platform-imaging.com</h5>
                
             </Container>
         </div>
-        <div className="galleryText">
+
+
+        <div id="iframeDiv" className="galleryText">
+            
             <MyPublications />
+            
         </div>
         
         </>
