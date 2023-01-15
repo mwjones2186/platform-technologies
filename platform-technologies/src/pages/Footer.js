@@ -21,29 +21,29 @@ export default function Footer() {
                             </p>
                         </MDBCol>
 
-                        <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
-                            <p>
-                                <a href='/packages' className='text-reset'>
-                                    Technology
-                                </a>
-                            </p>
-                            <p>
-                                <a href='/venue' className='text-reset'>
-                                    Documents
-                                </a>
-                            </p>
-                            <p>
-                                <a href='/contact' className='text-reset'>
-                                    About Us
-                                </a>
-                            </p>
-                            <p>
-                                <a href='#!' className='text-reset'>
-                                    Contact Us
-                                </a>
-                            </p>
-                        </MDBCol>
+                    <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+                        <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
+                        <p>
+                            <a href='/technology' className='text-reset'>
+                                Technology
+                            </a>
+                        </p>
+                        <p>
+                            <a href='/literature' className='text-reset'>
+                                Literature
+                            </a>
+                        </p>
+                        <p>
+                            <a href='/aboutus' className='text-reset'>
+                                Who We Are
+                            </a>
+                        </p>
+                        <p>
+                            <a href='#!' className='text-reset'>
+                                Contact Us
+                            </a>
+                        </p>
+                    </MDBCol>
 
                         <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
