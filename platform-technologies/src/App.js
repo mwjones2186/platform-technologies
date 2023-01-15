@@ -7,6 +7,9 @@ import Home from './pages/Home';
 import Literature from './pages/Literature';
 import Technology from './pages/Technology';
 import Footer from "./pages/Footer";
+import Publications from "./pages/Publications";
+import Patents from "./pages/Patents";
+import News from "./pages/News";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
         <Route path="/technology" element={< Technology />}></Route>
         <Route path="/about" element={< About />}></Route>
         <Route path="/contact" element={< Contact />}></Route>
+        <Route path="/publications" element={< Publications />}></Route>
+        <Route path="/patents" element={< Patents />}></Route>
+        <Route path="/news" element={< News />}></Route>
       </Routes>
 
       <Footer />
