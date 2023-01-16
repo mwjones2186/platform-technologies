@@ -3,7 +3,8 @@ import Heroimg from "../assets/images/hero image.webp"
 import Box from "@mui/material/Box"
 import { Container } from "@mui/system"
 import React from 'react'
-
+import VisibotVid from "../assets/videos/visibotVid"
+import Video from "../assets/videos/visibotVid"
 
 export default function Home() {
     return (
@@ -20,7 +21,10 @@ export default function Home() {
                 <h2>
                     THE FUTURE of Minimally Invasive Surgery
                 </h2>
-                <button>Watch Video</button>
+                
+            <div>
+                <Video/>
+            </div>
 
             </Box>
             <Box>
