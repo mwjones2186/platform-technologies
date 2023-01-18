@@ -19,8 +19,7 @@ export default function About() {
             <Container>
                 <Row className='row1'>
                     <Col className='mainSec' xl={4} sm={12}>
-                        <h4>WHO WE ARE</h4>
-                        <h2>What We Do</h2>
+                        <h2>Who We Are</h2>
                     </Col>
                 </Row>
 
