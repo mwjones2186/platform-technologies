@@ -10,12 +10,12 @@ export default function Home() {
             <div className='imgContainer'>
                 <img className="homeHeroImg"
                     src={Heroimg}
-                    alt="hero image">
+                    alt="image of 2 doctors">
                 </img>
 
                 <div className='mainText'>
                     <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>
-                    <button>Watch Video</button>
+                    <button>Watch a Video</button>
                 </div>
             </div>
             <div>
