@@ -12,11 +12,16 @@ export default function Home() {
             <div className='imgContainer'>
                 <img className="homeHeroImg"
                     src={Heroimg}
-                    alt="hero image">
+                    alt="image of 2 doctors">
                 </img>
 
                 <div className='mainText'>
+<<<<<<< HEAD
                     <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>  
+=======
+                    <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>
+                    <button>Watch a Video</button>
+>>>>>>> accb72b9a600526e9e076ec44f8ed783d4d639ff
                 </div>
                 <VisibotModal/>
                 

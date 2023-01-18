@@ -8,13 +8,14 @@
 
 .mainText {
     position: absolute;
-    top: 35%;
+    top: 30%;
     right: 10%;
     z-index: 999;
     background: rgba(21, 21, 21, 0.75);
     padding: 50px;
     border-radius: 15px;
     text-align: center;
+    border: 2px solid white;
 }
 
 .futureTxt {
