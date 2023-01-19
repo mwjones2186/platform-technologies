@@ -19,7 +19,7 @@ export default function Home() {
                     <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>
                     <button>Watch a Video</button>
                 </div>
-                <VisibotModal/>
+               
                 
             </div>
             
