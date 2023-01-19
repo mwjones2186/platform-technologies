@@ -1,4 +1,3 @@
-import Box from "@mui/material/Box"
 import '../assets/css/Technology.css';
 
 import Container from 'react-bootstrap/Container';
@@ -19,7 +18,7 @@ export default function Technology() {
                 <h1>Visibot™</h1>
             </div>
 
-            <Container className="container">
+            <Container className="techContainer">
                 <Row className="row">
                     <div>
                         <h4>
