@@ -18,7 +18,7 @@ export default function Home() {
                 <div className='mainText'>
                     <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>  
                 </div>
-                <VisibotModal/>
+               
                 
             </div>
             
