@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
-import IoMdCloseOutline from '@react-icons/all-files/io/IoMdCloseCircleOutline'
-import BiLoaderAlt from '@react-icons/all-files/bi/BiLoaderAlt'
+// import IoMdCloseOutline from '@react-icons/all-files/io/IoMdCloseCircleOutline'
+// import BiLoaderAlt from '@react-icons/all-files/bi/BiLoaderAlt'
 import Button from 'react-bootstrap/Button'
 import '../assets/css/VisibotModal.css'
 import visibotVid from '../assets/videos/visibotVid.mp4'
