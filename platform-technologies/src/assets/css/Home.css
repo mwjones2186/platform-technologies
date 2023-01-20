@@ -4,6 +4,7 @@
 
 .imgContainer img {
     width: 100%;
+    border-bottom: 2px solid white;
 }
 
 .mainText {
