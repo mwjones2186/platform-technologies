@@ -1,0 +1,19 @@
+.galleryText {
+    font-weight: bold;
+}
+
+.publicationsTxt {
+    visibility: hidden;
+}
+
+.publicationsTxt:hover {
+    visibility: visible;
+}
+
+.publicationsImg {
+    width: 100%;
+}
+
+.publicationsList {
+    margin: 20px;
+}

@@ -16,12 +16,12 @@ export default function Home() {
                 </img>
 
                 <div className='mainText'>
-                    <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>  
+                    <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>
                 </div>
-               
-                
+
+
             </div>
-            
+
             <div>
 
 
@@ -32,7 +32,7 @@ export default function Home() {
                 </div>
 
             </div>
-           
+
         </>
     )
 }

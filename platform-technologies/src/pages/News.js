@@ -1,16 +1,18 @@
 import Box from "@mui/material/Box"
 import { Container } from "@mui/system"
 import React from 'react'
+import '../assets/css/News.css';
 
 
 export default function News() {
     return (
         <>
-            <h1>
-                News
-            </h1>
-            <Container>
-                <Box>
+            <Container className='newsWrap'>
+                <h1>
+                    News
+                </h1>
+
+                <Box className="borderBottom">
                     <h3>
                         PLATFORM IMAGING, LLC. ANNOUNCES THE APPOINTMENT OF RAYMOND R. RACKLEY, M.D. TO THE MEDICAL ADVISORY BOARD
                     </h3>
@@ -41,23 +43,25 @@ export default function News() {
                         Dr. Rackley serves as the Principal Investigator and Co-Principal Investigator on NIH grants, as well as other extramural foundation and society grants that focus on bladder health and pelvic organ reconstructive developments. He has also authored or co-authored more than 100 peer-reviewed publications in clinical and basic science topics in pelvic health and urology including numerous chapters in the leading textbooks on urology and pelvic reconstructive surgery. He serves as a reviewer for the leading peer-reviewed national and international urology and gynecology journals, grant reviewer for foundations such as the National Kidney Foundation, and a committee member for the Data and Safety Monitoring Board for the NIH Clinical Research Trials Network for Interstitial Cystitis and Chronic Pelvic Pain and the Bladder Advisory Council of the AUA Foundation.
                     </p>
 
-                    <p>
-                        Laparoscopic Surgery
-                    </p>
-                    <p>
-                        There are approximately 6 million laparoscopic procedures performed annually in the United States.  VisibotTM technology is applicable to approximately 80% of these.
-                    </p>
+                    <div className="newsFooter">
+                        <p>
+                            Laparoscopic Surgery
+                        </p>
+                        <p>
+                            There are approximately 6 million laparoscopic procedures performed annually in the United States.  VisibotTM technology is applicable to approximately 80% of these.
+                        </p>
 
-                    <p>
-                        Contact
-                    </p>
+                        <p>
+                            Contact
+                        </p>
 
-                    <p>
-                        Steve Jones, CEO, Platform Imaging, LLC.
-                    </p>
-                    <p>
-                        sjones@platform-imaging.com
-                    </p>
+                        <p>
+                            Steve Jones, CEO, Platform Imaging, LLC.
+                        </p>
+                        <p>
+                            sjones@platform-imaging.com
+                        </p>
+                    </div>
                 </Box>
 
                 <Box>
@@ -84,29 +88,30 @@ export default function News() {
                         Platform Imaging’s VisibotTM patent estate includes other granted U.S. and foreign patents and patent pending applications covering: Implantable Device and System for Minimal Access Procedures, Laparoscopic Device Implantation and Fixation System and Method, Insertable Surgical Imaging Device, Laparoscopic Surgical Device and Tool Tracking During Surgical Procedures.
                     </p>
 
-                    <p>
-                        Laparoscopic Surgery
-                    </p>
-                    <p>
-                        There are approximately 6 million laparoscopic procedures performed annually in the United States.  VisibotTM technology is applicable to approximately 80% of these.
-                    </p>
+                    <div className="newsFooter">
+                        <p>
+                            Laparoscopic Surgery
+                        </p>
+                        <p>
+                            There are approximately 6 million laparoscopic procedures performed annually in the United States.  VisibotTM technology is applicable to approximately 80% of these.
+                        </p>
 
-                    <p>
-                        Contact
-                    </p>
+                        <p>
+                            Contact
+                        </p>
 
-                    <p>
-                        Steve Jones, CEO, Platform Imaging, LLC.
-                    </p>
+                        <p>
+                            Steve Jones, CEO, Platform Imaging, LLC.
+                        </p>
 
-                    <p>
-                        (239) 571-2828
-                    </p>
+                        <p>
+                            (239) 571-2828
+                        </p>
 
-                    <p>
-                        sjones@platform-imaging.com
-                    </p>
-
+                        <p>
+                            sjones@platform-imaging.com
+                        </p>
+                    </div>
 
                 </Box>
 

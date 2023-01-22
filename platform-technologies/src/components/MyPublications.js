@@ -65,19 +65,21 @@ export default function MyPublications() {
       <Box 
       sx={{ px:3 }}
       >
-      <ImageList variant="masonry" cols={3} gap={8}>
+      <ImageList cols={2} gap={28}>
         {pdf.map((item) => (
-          <ImageListItem key={item.image}>
+          <ImageListItem className='publicationsList' key={item.image}>
             <iframe 
             
               src={`${item.image}`}
               srcSet={`${item.image}`}
               alt={item.title}
               loading="lazy"
+              className='publicationsImg'
             />
             
             <ImageListItemBar
             title={item.title}
+            className='publicationsTxt'
             />
 
           </ImageListItem>
