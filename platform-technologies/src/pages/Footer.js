@@ -49,7 +49,7 @@ export default function Footer() {
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
 
                             <p>
-                                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                                <MDBIcon color='secondary' icon='envelope' className='me-3'  />
                                 Sjones@platform-imaging.com
                             </p>
                             <p>
