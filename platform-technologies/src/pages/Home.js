@@ -20,10 +20,10 @@ export default function Home() {
                     
                     <VisibotModal/>
                 </div>
-               
-                
+
+
             </div>
-            
+
             <div>
 
 
@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
 
             </div>
-           
+
         </>
     )
 }

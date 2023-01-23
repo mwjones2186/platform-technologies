@@ -1,0 +1,21 @@
+.patentsDiv h1 {
+    text-align: center;
+    border-bottom: 2px solid white;
+    width: 35%;
+    margin: 35px auto 35px auto;
+    padding-bottom: 15px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.patentsDiv h3 {
+    text-align: center;
+    width: 60%;
+    margin: 55px auto 55px auto;
+}
+
+.patentsDiv h4{
+    text-align: center;
+    width: 60%;
+    margin: 75px auto 0px auto;
+}
