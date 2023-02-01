@@ -1,9 +1,8 @@
 import '../assets/css/About.css';
 import React from 'react'
 import HeadShot1 from '../assets/images/sjHeadshot.webp'
-import HeadShot2 from '../assets/images/pfHeadshot.webp'
-import HeadShot3 from '../assets/images/fbHeadshot.webp'
-import HeadShot4 from '../assets/images/dfHeadshot.webp'
+import HeadShot2 from '../assets/images/unnamed.png'
+import HeadShot3 from '../assets/images/unnamed (1).png'
 
 import stockImg from '../assets/images/istockphoto-1401699334-170667a.jpg';
 import stockImg2 from '../assets/images/istockphoto-1342154721-170667a.jpg'
@@ -67,12 +66,11 @@ export default function About() {
                 <Row className='allMembersDiv'>
                     <Col xl={3} className='teamMember'>
                         <img
-                            className="steveJones"
                             src={HeadShot1}
                             alt="Steve Jones">
                         </img>
                         <h4>Steve Jones</h4>
-                        <h5>Chief Dork Officer</h5>
+                        <h5>Chief Executive Officer</h5>
                         <ul className='memberUl'>
                             <h6>24+ Years Medical Device Experieince:</h6>
 
@@ -88,6 +86,42 @@ export default function About() {
                     </Col>
 
                     <Col xl={3} className='teamMember'>
+                        <img
+                            src={HeadShot2}
+                            alt="RAYMOND RACKLEY,BME M.D.">
+                        </img>
+                        <h4>Raymond Rackley, BME M.D</h4>
+                        <h5>Advisory Board Chair</h5>
+                        <ul className='memberUl'>
+                            <li>Professor of Surgery at Cleveland
+                                Clinic's Glickman Urology Center for
+                                Pelvic Medicine and Reconstructive
+                                Surgery</li>
+                            <li>General Managing Partner Nirvana
+                                Healthcare Ventures</li>
+                            <li>MD from Case Western Reserve
+                                University Medical School and his BS in
+                                Biomedical Engineering from Duke
+                                Engineering.</li>
+                        </ul>
+                    </Col>
+
+                    <Col xl={3} md={6} className='teamMember'>
+                        <img
+                            src={HeadShot3}
+                            alt="Ethan Rigel">
+                        </img>
+                        <h4>Ethan Rigel</h4>
+                        <h5>Board Member</h5>
+                        <ul className='memberUl'>
+                            <li>Founding and Managing Partner of Gore Range Capital</li>
+                            <li>invested $900+ million in companies with a combined enterprise value $2B+</li>
+                            <li>Massachusetts Institute of Technology (Bachelor of Science in Economics and Bachelor of Science in Management Science)</li>
+                            <li>MBA from the Fuqua School of Business at Duke University.</li>
+                        </ul>
+                    </Col>
+
+                    {/* <Col xl={3} className='teamMember'>
                         <img
                             className="dennisFowler"
                             src={HeadShot4}
@@ -139,7 +173,7 @@ export default function About() {
                             <li>Founder: Numerous start-ups</li>
                             <li>Partner, Gore Range Capital</li>
                         </ul>
-                    </Col>
+                    </Col> */}
 
                 </Row>
             </Container>

@@ -76,12 +76,13 @@
 
 .teamMember {
     text-align: center;
+    margin: 25px;
 }
 
 .teamMember img {
-    width: 60%;
     border: 2px solid white;
     border-radius: 50%;
+    height: 230px;
 }
 
 .teamMember h5 {
@@ -91,13 +92,20 @@
     margin-top: 0;
 }
 
+.memberUl {
+    padding: 0;
+    margin: 0 auto;
+}
+
 .teamMember ul li {
     list-style-type: none;
     font-weight: 100;
+    margin: 10px;
 }
 
 
 @media (max-width: 1199px) {
+
     .row1,
     .row2,
     .row3 {
@@ -106,5 +114,23 @@
 
     .bottomImg {
         display: none;
+    }
+
+    .memberUl {
+        padding: 0;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .teamMember img {
+        border: 2px solid white;
+        border-radius: 50%;
+        height: 230px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .teamMember img {
+        width: 60%;
     }
 }

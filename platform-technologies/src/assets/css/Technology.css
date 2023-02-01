@@ -42,8 +42,9 @@
     text-align: center;
     margin: 25px 50px 25px 50px;
     max-width: 100%;
-    border: 4px solid white;
+    border: 5px solid white;
     border-radius: 17px;
+    padding: 0;
 }
 
 .box h3 {

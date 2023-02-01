@@ -9,11 +9,85 @@ import administrator from '../assets/images/Administrator.jpg'
 import surgeon from '../assets/images/surgeon.jpeg'
 import team from '../assets/images/team.jpg'
 import patient from '../assets/images/patient.jpg'
+import { ListGroupItem } from 'react-bootstrap';
 
 
 export default function Technology() {
     return (
         <>
+            <div className="header">
+                <h1>Novell Suction™</h1>
+            </div>
+
+            <Container className="techContainer">
+                <Row className="row">
+                    <div>
+                        <h4>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </h4>
+                    </div>
+
+                    <Col className="box" xl={4} md={6}>
+                        <img className="techSurgeon" src={surgeon} alt="surgeon"></img>
+                        <h3>Surgeons</h3>
+                        <ul className="description">
+                            <li></li>
+                            <p></p>
+                            <p></p>
+                            <li></li>
+                            <li></li>
+                            <p></p>
+                            <p></p>
+                            <li></li>
+                            <p></p>
+                            <li></li>
+                            <p></p>
+                        </ul>
+                    </Col>
+                    <Col className="box" xl={4} md={6}>
+                        <img className="techTeam" src={team}></img>
+                        <h3>Surgical Staff</h3>
+                        <ul className="description">
+                            <li></li>
+                            <p></p>
+                            <li></li>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                            <p></p>
+                        </ul>
+                    </Col>
+                    <Col className="box" xl={4} md={6}>
+                        <img className="techAdmin" src={administrator}></img>
+                        <h3>Administration</h3>
+                        <ul className="description">
+                            <li></li>
+                            <p></p>
+                            <li></li>
+                            <p></p>
+                            <li></li>
+                            <p></p>
+                            <p></p>
+                        </ul>
+                    </Col>
+                    <Col className="box" xl={4} md={6}>
+                        <img className="techPatient" src={patient}></img>
+                        <h3>Patients</h3>
+                        <ul className="description">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </Col>
+                    <Col className="bottomTxt" xl={12}>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                    </Col>
+                </Row>
+            </Container>
+
+
+
             <div className="header">
                 <h1>Visibot™</h1>
             </div>
