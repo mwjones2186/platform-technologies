@@ -1,12 +1,11 @@
 import React from "react";
 import '../assets/css/Home.css'
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import IoMdCloseOutline from '@react-icons/all-files/io/IoMdCloseCircleOutline'
 import BiLoaderAlt from '@react-icons/all-files/bi/BiLoaderAlt'
 import '../assets/css/VisibotModal.css'
 import visibotVid from '../assets/videos/visibotVid.mp4'
-
-
 
 export default function VisibotModal() {
 
@@ -24,8 +23,9 @@ export default function VisibotModal() {
 
   return (
     <>
-        <button onClick={openModal} className="modalButton">
-          Watch Video
+      <Link to='/technology'>
+        <button className="modalButton">
+          Learn About Our Products
           {modal ? (
             <section className="modal__bg">
               <div className="modal__align">
@@ -62,6 +62,7 @@ export default function VisibotModal() {
             </section>
           ) : null}
         </button>
+      </Link>
     </>
   )
 }
