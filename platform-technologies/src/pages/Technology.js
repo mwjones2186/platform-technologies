@@ -10,6 +10,11 @@ import surgeon from '../assets/images/surgeon.jpeg'
 import team from '../assets/images/team.jpg'
 import patient from '../assets/images/patient.jpg'
 import { ListGroupItem } from 'react-bootstrap';
+import fifthArm1 from '../assets/images/fifthArm1.webp'
+import fifthArm2 from '../assets/images/fifthArm2.webp'
+import robot from '../assets/images/robot.webp'
+import challenge from '../assets/images/challengeSurgery.jpg'
+import VisibotModal from '../components/VisibotModal';
 
 
 export default function Technology() {
@@ -23,65 +28,52 @@ export default function Technology() {
                 <Row className="row">
                     <div>
                         <h4>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        A Versatile "Sheath" over an existing metal rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
+
+A Disruptive Technology       
                         </h4>
                     </div>
 
                     <Col className="box" xl={4} md={6}>
-                        <img className="techSurgeon" src={surgeon} alt="surgeon"></img>
-                        <h3>Surgeons</h3>
+                        <img className="techSurgeon" src={fifthArm2} alt="surgeon"></img>
+                        <h3>Novell Universal Multiplanar Suction</h3>
                         <ul className="description">
-                            <li></li>
-                            <p></p>
-                            <p></p>
-                            <li></li>
-                            <li></li>
-                            <p></p>
-                            <p></p>
-                            <li></li>
-                            <p></p>
-                            <li></li>
-                            <p></p>
+                            <p>The Fifth Arm Surgical Multiplanar Suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
+
+access.</p>
+                            
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
-                        <img className="techTeam" src={team}></img>
-                        <h3>Surgical Staff</h3>
+                        <img className="techTeam" src={robot}></img>
+                        <h3>Current Systems</h3>
                         <ul className="description">
-                            <li></li>
-                            <p></p>
-                            <li></li>
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                            <p></p>
+                          
+                            <p>Suction/irrigation systems provide straight line access while other workarounds such as sponges or rubber tubes are time consuming. Robotic platforms offer a robotic suction/irrigation arm tool option that is expensive and limits the surgeons' capabilities in active dissection and bleeding control.</p>
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
-                        <img className="techAdmin" src={administrator}></img>
-                        <h3>Administration</h3>
+                        <img className="techAdmin" src={challenge}></img>
+                        <h3>Challenges</h3>
                         <ul className="description">
-                            <li></li>
-                            <p></p>
-                            <li></li>
-                            <p></p>
-                            <li></li>
-                            <p></p>
-                            <p></p>
+                          
+                            <p>Patient anatomy can prevent access of suction/irrigation to surgical regions, interference with other surgical instruments, patients' organs block visibility and surgical dissection can present difficult orientations. When bleeding occurs, rapid visualization
+
+at the bleeding site is critical.</p>
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
-                        <img className="techPatient" src={patient}></img>
-                        <h3>Patients</h3>
+                        <img className="techPatient" src={fifthArm1}></img>
+                        <h3>The Fifth Arm Solution</h3>
                         <ul className="description">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <p>A Versatile "Sheath" over an existing metal rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
+
+A Disruptive Technology  </p>
                         </ul>
                     </Col>
                     <Col className="bottomTxt" xl={12}>
-                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                        <h4>Watch the Video!</h4>
+                        <VisibotModal/>
                     </Col>
                 </Row>
             </Container>

@@ -23,9 +23,9 @@ export default function VisibotModal() {
 
   return (
     <>
-      <Link to='/technology'>
+      <Link to=''>
         <button className="modalButton">
-          Learn About Our Products
+          Learn More
           {modal ? (
             <section className="modal__bg">
               <div className="modal__align">

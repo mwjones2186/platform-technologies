@@ -5,7 +5,7 @@ import "../assets/css/Contact.css";
 import Form from "react-bootstrap/Form";
 import { useState, useRef } from 'react'
 import Button from 'react-bootstrap/Button'
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
