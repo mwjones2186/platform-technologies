@@ -3,7 +3,7 @@ import '../assets/css/Nav.css';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons'
-import Logo from '../assets/images/PlatformImaging-NewLogo-transparent.webp';
+import Logo from '../assets/images/Picture1.png';
 import Home from '../pages/Home';
 
 export default function Navigation() {
