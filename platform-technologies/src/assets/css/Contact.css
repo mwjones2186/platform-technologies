@@ -1,0 +1,95 @@
+.text-zone {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-form ul {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form ul li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+    color: white;
+}
+
+.contact-form ul li.half {
+    width: 50%;
+    display: inline-flex;
+}
+
+.name {
+    margin-right: 3px;
+}
+
+.email {
+    margin-left: 3px;
+}
+
+input[type='text'],
+input[type='email'] {
+    width: 100%;
+    height: 64px;
+    border: 0;
+    background: #181818;
+    padding: 0 20px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background: #181818;
+    padding: 20px;
+    min-height: 150px;
+    color: white;
+    border-radius: 15px;
+}
+
+.rightText {
+    text-align: center;
+    padding: 8% 8% 8% 0!important;
+    border-right: 2px solid white;
+}
+
+.rightText h1 {
+    font-size: 50px;
+}
+
+.rightText p {
+    font-size: 20px;
+}
+
+@media (min-width: 250px) {
+
+    .text-zone {
+        padding: 20% 10%14% 10%;
+    }
+
+    .text-zone h1 {
+        font-size: 45px;
+    }
+}
+
+.text-zone {
+    padding: 8% 0 8% 8%!important;
+
+}
+
+.text-zone h1 {
+    font-size: 50px;
+}

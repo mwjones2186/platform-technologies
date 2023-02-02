@@ -25,7 +25,7 @@ export default function Navigation() {
                     <NavLink className='navItem login' href='/about'>Who We Are</NavLink>
                     <NavLink className='navItem login' href='/technology'>Technology</NavLink>
                     <NavLink className='navItem' href='/literature'>Literature</NavLink>
-                    <NavLink className='navItem' href='/contactUs'>Contact Us</NavLink>
+                    <NavLink className='navItem' href='/contact'>Contact Us</NavLink>
 
                     {/* <NavDropdown id='dropDown' className='navItem' title="Technologies">
                         <NavDropdown.Item className='dropDownItem' href="#action/3.1">Visibot</NavDropdown.Item>
