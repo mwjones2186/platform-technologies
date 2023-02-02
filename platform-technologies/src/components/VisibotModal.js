@@ -23,9 +23,9 @@ export default function VisibotModal() {
 
   return (
     <>
-      <Link to=''>
-        <button className="modalButton">
-          Learn More
+      
+      <button onClick={openModal} className="modalButton">
+          Watch the Video!
           {modal ? (
             <section className="modal__bg">
               <div className="modal__align">
@@ -44,25 +44,21 @@ export default function VisibotModal() {
                       /> */}
                       </div>
                     ) : null}
-                    <iframe
-                      className="modal__video-style"
-                      onLoad={spinner}
-                      loading="lazy"
-                      width="800"
-                      height="500"
-                      src={visibotVid}
-                      title="Visibot"
-                      // frameBorder="10"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
+                    <iframe 
+                    width="1232" 
+                    height="620" 
+                    src="https://www.youtube.com/embed/mUJuoFKmNrc" 
+                    title="The Novell Suction full ND" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen></iframe>
                   </div>
                 </div>
               </div>
             </section>
           ) : null}
         </button>
-      </Link>
+     
     </>
   )
 }

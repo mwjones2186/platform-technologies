@@ -28,9 +28,7 @@ export default function Technology() {
                 <Row className="row">
                     <div>
                         <h4>
-                        A Versatile "Sheath" over an existing metal rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
-
-A Disruptive Technology       
+                        A Novel Laparoscopic Flexible Suction Device     
                         </h4>
                     </div>
 
@@ -73,8 +71,8 @@ A Disruptive Technology  </p>
                     </Col>
                     <Col className="bottomTxt" xl={12}>
                         <h4>Watch the Video!</h4>
-                        <VisibotModal/>
                     </Col>
+                    <VisibotModal/>
                 </Row>
             </Container>
 
