@@ -5,6 +5,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import React from "react";
 import '../assets/css/Home.css'
 import { useState } from "react";
+import Image from 'react-bootstrap/Image'
 
 import publication1 from "../assets/publications/publication1.pdf"
 import publication2 from "../assets/publications/publication2.pdf"
@@ -15,6 +16,9 @@ import publication6 from '../assets/publications/publication6.pdf'
 import publication7 from '../assets/publications/publication7.pdf'
 import publication8 from '../assets/publications/publication8.pdf'
 import publication9 from '../assets/publications/publication9.pdf'
+
+
+
 
 const pdf = [
   {
@@ -56,6 +60,7 @@ const pdf = [
 
 ]
 
+
 export default function MyPublications() {
 
   const [modal, setModal] = useState(false);
@@ -73,9 +78,9 @@ export default function MyPublications() {
   return (
 
     <Box
-      sx={{ px: 3 }}
+      sx={{ px: 5 }}
     >
-      <ImageList cols={2} gap={28}>
+      <ImageList>
         {pdf.map((item) => (
           <ImageListItem key={item.image}>
             <button onClick={openModal} className="modalButton">
@@ -106,8 +111,8 @@ export default function MyPublications() {
                           height="800"
                           src={`${item.image}`}
                           title="Visibot"
-                          // frameBorder="10"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          frameBorder="10"
+                          // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen
                         ></iframe>
                       </div>
