@@ -1,5 +1,6 @@
-import { Container, Card, Col, Button, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import MyPublications from "../components/MyPublications";
+
 import '../assets/css/Publications.css';
 
 export default function Publications() {
