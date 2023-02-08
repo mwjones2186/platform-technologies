@@ -1,0 +1,85 @@
+.leftText {
+    text-align: center;
+    padding: 8% 5% 8% 0;
+    border-right: 2px solid white;
+}
+
+.leftText h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.leftText p {
+    font-size: 20px;
+}
+
+.contactInput {
+    margin: 5px 0;
+}
+
+.contactInput input::placeholder {
+    color: #808080;
+}
+
+.contactInput select,
+.contactInput input {
+    font-size: 17px;
+    padding: 15px;
+    background-color: rgb(36, 36, 36);
+    border: 2px solid rgb(23, 23, 23);
+    color: #808080;
+}
+
+.contactInput input:focus,
+.contactInput select:focus {
+    background: rgb(36, 36, 36);
+    color: #ced4da;
+    border-color: white;
+}
+
+.text-zone {
+    padding: 8% 0 8% 5%;
+}
+
+.text-zone h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+}
+
+.contactBtn {
+    font-size: 17px;
+    border: 2px solid black;
+    margin: 15px 0;
+    padding: 10px;
+    width: 75px;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+
+.contactBtn:hover {
+    transition: all .25s ease-out;
+    border: 2px solid black;
+    color: white;
+    background: #1b9fbd;
+}
+
+@media (max-width: 992px) {
+
+    .text-zone {
+        padding: 8% 8% 8% 8%;
+    }
+
+    .leftText {
+        border-right: none;
+        border-bottom: 2px solid white;
+        width: 90%;
+        padding: 8% 0 3% 0;
+        margin-bottom: 5%;
+    }
+
+    .text-zone h1 {
+        text-align: center;
+    }
+}
