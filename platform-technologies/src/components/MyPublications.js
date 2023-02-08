@@ -3,9 +3,10 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import React from "react";
-import '../assets/css/Home.css'
+// import '../assets/css/Home.css'
 import { useState } from "react";
 import Image from 'react-bootstrap/Image'
+import Button from 'react-bootstrap/Button'
 
 import publication1 from "../assets/publications/publication1.pdf"
 import publication2 from "../assets/publications/publication2.pdf"
@@ -80,39 +81,46 @@ export default function MyPublications() {
     <Box
       sx={{ px: 5 }}
     >
+      
       <ImageList>
         {pdf.map((item) => (
-          <ImageListItem key={item.image}>
-            <button onClick={openModal} className="modalButton">
+          
+          
+          <ImageListItem 
+          
+          key={item.image}
+          >
+           
+            <Button 
+            onClick={openModal} 
+            className="modalButton"
+            > 
               Open PDF
               {modal ? (
-                <section className="modal__bg">
+                
+                
+                <section 
+                className="modal__bg">
                   <div className="modal__align">
                     <div className="modal__content" modal={modal}>
-                      {/* <IoMdCloseOutline
-                  className="modal__close"
-                  arial-label="Close modal"
-                  onClick={setModal}
-                /> */}
-                      <div className="modal__video-align">
+                    
+                      <div className="modal__video-align">                >
                         {pdfLoading ? (
                           <div className="modal__spinner">
-                            {/* <BiLoaderAlt
-                        className="modal__spinner-style"
-                        fadeIn="none"
-                      /> */}
+                            
                           </div>
                         ) : null}
                         <iframe
+                          
                           className="modal__video-style"
                           onLoad={spinner}
                           loading="lazy"
                           width="800"
                           height="800"
                           src={`${item.image}`}
-                          title="Visibot"
+                          title="Publication"
                           frameBorder="10"
-                          // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowfullscreen
                         ></iframe>
                       </div>
@@ -120,9 +128,9 @@ export default function MyPublications() {
                   </div>
                 </section>
               ) : null}
-            </button>
+            </Button>
             <iframe
-
+              hidden="true"
               src={`${item.image}`}
               srcSet={`${item.image}`}
               alt={item.title}
@@ -139,6 +147,7 @@ export default function MyPublications() {
           </ImageListItem>
         ))}
       </ImageList>
+      
     </Box>
   );
 

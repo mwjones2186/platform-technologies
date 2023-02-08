@@ -21,7 +21,7 @@ export default function Technology() {
     return (
         <>
             <div className="header">
-                <h1>Novell Suction™</h1>
+                <h1>Novell Suction</h1>
             </div>
 
             <Container className="techContainer">
@@ -62,7 +62,7 @@ at the bleeding site is critical.</p>
                     </Col>
                     <Col className="box" xl={4} md={6}>
                         <img className="techPatient" src={fifthArm1}></img>
-                        <h3>The Fifth Arm Solution</h3>
+                        <h3>The Solution</h3>
                         <ul className="description">
                             <p>A Versatile "Sheath" over an existing metal rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
 

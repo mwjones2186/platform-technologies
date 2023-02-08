@@ -56,7 +56,7 @@ export default function Footer() {
                                 <MDBIcon color='secondary' icon='phone' className='me-3' /> Office Number: (800)571-2222
                             </p>
                             <p>
-                                <MDBIcon color='secondary' icon='print' className='me-3' /> Office Fax: (800)571-1111
+                                <MDBIcon color='secondary' icon='print' className='me-3' /> Address: 4851 Tamiami Trail N Suite 200, Naples, FL 34103
                             </p>
                         </MDBCol>
                     </MDBRow>

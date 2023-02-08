@@ -6,6 +6,7 @@ import IoMdCloseOutline from '@react-icons/all-files/io/IoMdCloseCircleOutline'
 import BiLoaderAlt from '@react-icons/all-files/bi/BiLoaderAlt'
 import '../assets/css/VisibotModal.css'
 import visibotVid from '../assets/videos/visibotVid.mp4'
+import Button from 'react-bootstrap/Button'
 
 export default function VisibotModal() {
 
@@ -24,7 +25,7 @@ export default function VisibotModal() {
   return (
     <>
       
-      <button onClick={openModal} className="modalButton">
+      <Button onClick={openModal} className="modalButton">
           Watch the Video!
           {modal ? (
             <section className="modal__bg">
@@ -57,7 +58,7 @@ export default function VisibotModal() {
               </div>
             </section>
           ) : null}
-        </button>
+        </Button>
      
     </>
   )
