@@ -17,7 +17,7 @@ export default function Home() {
 
                 <div className='mainText'>
                     <h2><span className='futureTxt'>THE FUTURE</span> of Minimally Invasive Surgery</h2>
-                    <Button href='/technology'>Learn More</Button>
+                    <Button className='mainTextBtn' href='/technology'>Learn More</Button>
                     {/* <VisibotModal/> */}
                 </div>
 
