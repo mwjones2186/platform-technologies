@@ -30,7 +30,7 @@ export default function Home() {
 
                 <div className='subTxt'>
                     <h2>Platform Technologies</h2>
-                    <h4>An early-stage medical device company perfecting and commerializing autonomous, disposable, miniaturized visualization devices for minimally invasice surgery (MIS)</h4>
+                    <h4>Platform Technologies is a company identifying pain points and creating product solutions for minimially invasive surgery (MIS) benefiting the patient, surgeon and healthcare facilty</h4>
                 </div>
 
             </div>

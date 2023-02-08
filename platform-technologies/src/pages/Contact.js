@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button'
 
 export default function Contact() {
 
-  // const refForm = useRef()
+  const refForm = useRef()
 
 
   // const sendEmail = (e) => {
@@ -49,6 +49,8 @@ export default function Contact() {
               <p>
                 Want to get in touch? Fill out the form and we will get in touch. Let us know how we can help!
               </p>
+              <h3>Need to place an order?</h3>
+              <Button href="/"> Click Here!</Button>
             </div>
           </Col>
 
@@ -136,12 +138,15 @@ export default function Contact() {
 
               <Row>
                 <Col xl={12}>
-                  <Form.Group className="contactInput" controlId="formSubject">
-                    {/* <Form.Label>Email</Form.Label> */}
-                    <Form.Control type="name" placeholder="Id love to learn more about your Visibot™!" />
-                    {/* <Form.Text className="text-muted">
-                  Please enter a subject.
-                </Form.Text> */}
+                  <Form.Group required className="contactInput" controlId="formSuffix">
+                    <Form.Select aria-label="Default select example">
+                      <Form.Label>Products</Form.Label>
+                      <option>Products</option>
+                      <option value="1">I'd love to learn more about the Novelle Suction Device!</option>
+                      <option value="2">I'd love to learn more about the Visibot™</option>
+                      <option value="3">other</option>
+                    
+                    </Form.Select>
                   </Form.Group>
                 </Col>
               </Row>
