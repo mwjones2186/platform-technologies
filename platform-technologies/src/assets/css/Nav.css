@@ -89,6 +89,9 @@
         left: 0;
         width: 35%;
         justify-content: center;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 10px;
     }
 
     .navimg:hover {
