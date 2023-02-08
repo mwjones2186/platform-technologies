@@ -1,5 +1,5 @@
 .navimg {
-    width: 120%;
+    width: 100%;
 }
 
 .navbar-toggler {
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 125%;
 }
 
 .homeIcon {

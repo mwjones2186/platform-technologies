@@ -33,13 +33,13 @@ export default function Navigation() {
                     </NavDropdown> */}
 
                     <div className='socialWrap'>
-                        <a target='_blank' rel="noreferrer" href='https://instagram.com'>
+                        {/* <a target='_blank' rel="noreferrer" href='https://instagram.com'>
                             <FontAwesomeIcon className='socials' icon={faInstagram} />
                         </a>
 
                         <a target='_blank' rel="noreferrer" href='https://facebook.com'>
                             <FontAwesomeIcon className='socials' icon={faFacebook} />
-                        </a>
+                        </a> */}
                     </div>
                 </Nav>
             </Navbar.Collapse>
