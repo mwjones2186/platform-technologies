@@ -1,5 +1,15 @@
+.imgWrap {
+    width: 45%;
+}
+
 .navimg {
-    width: 100%;
+    width: 60%;
+    margin: 10px;
+}
+
+.navimg:hover {
+    transition: all .5s ease-out;
+    width: 61%;
 }
 
 .navbar-toggler {
@@ -19,7 +29,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 175%;
 }
 
 .homeIcon {
@@ -57,33 +66,41 @@
         justify-content: right;
     }
 
-    .navimg {
-        width: 90%;
-    }
-
     .navItem {
         margin: 15px;
-        font-size: 15px;
+        font-size: 17px;
+    }
+
+    .imgWrap {
+        width: 38%;
     }
 }
 
 @media (max-width: 992px) {
 
     .imgWrap {
-        position: relative;
-        right: 5%;
-        display: flex;
         width: 100%;
+        position: relative;
+        display: flex;
         justify-content: center;
     }
 
     .navimg {
-        width: %;
+        left: 0;
+        width: 35%;
         justify-content: center;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 10px;
+    }
+
+    .navimg:hover {
+        width: 42%;
     }
 
     .navItem {
         margin: 5px;
+        font-size: 20px;
     }
 
     .socials {
@@ -112,10 +129,5 @@
     .socials {
         color: #c0bfbf;
         font-size: 25px;
-    }
-
-    .navimg:hover {
-        transition: all .5s ease-out;
-        width: 123%;
     }
 }

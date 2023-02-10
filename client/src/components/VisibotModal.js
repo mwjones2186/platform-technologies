@@ -25,7 +25,7 @@ export default function VisibotModal() {
   return (
     <>
       
-      <Button onClick={openModal} className="modalButton">
+      <button onClick={openModal} className="modalButton">
           Watch the Video!
           {modal ? (
             <section className="modal__bg">
@@ -58,7 +58,7 @@ export default function VisibotModal() {
               </div>
             </section>
           ) : null}
-        </Button>
+        </button>
      
     </>
   )

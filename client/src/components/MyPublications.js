@@ -8,6 +8,11 @@ import { useState } from "react";
 // import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 
+import '../assets/css/Publications.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 import publication1 from "../assets/publications/publication1.pdf"
 import publication2 from "../assets/publications/publication2.pdf"
 import publication3 from '../assets/publications/publication3.pdf'
@@ -78,77 +83,71 @@ export default function MyPublications() {
 
   return (
 
-    <Box
+    <Container
       sx={{ px: 5 }}
     >
-      
-      <ImageList>
+
+      <Row className='fullList'>
         {pdf.map((item) => (
-          
-          
-          <ImageListItem 
-          
-          key={item.image}
-          >
-           
-            <Button 
-            onClick={openModal} 
-            className="modalButton"
-            > 
-              Open PDF
-              {modal ? (
-                
-                
-                <section 
-                className="modal__bg">
-                  <div className="modal__align">
-                    <div className="modal__content" modal={modal}>
-                    
-                      <div className="modal__video-align">                >
-                        {pdfLoading ? (
-                          <div className="modal__spinner">
-                            
-                          </div>
-                        ) : null}
-                        <iframe
-                          
-                          className="modal__video-style"
-                          onLoad={spinner}
-                          loading="lazy"
-                          width="800"
-                          height="800"
-                          src={`${item.image}`}
-                          title="Publication"
-                          frameBorder="10"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowfullscreen
-                        ></iframe>
+
+            <Col xl={4}
+              className='pubListItem'
+              key={item.image}
+            >
+
+              <h3 className='pdfTxt'>{item.title}</h3>
+
+              <button
+                onClick={openModal}
+                className="publicationBtn"
+              >
+                Open PDF
+                {modal ? (
+
+
+                  <section
+                    className="modal__bg">
+                    <div className="modal__align">
+                      <div className="modal__content" modal={modal}>
+
+                        <div className="modal__video-align">
+                          {pdfLoading ? (
+                            <div className="modal__spinner">
+
+                            </div>
+                          ) : null}
+                          <iframe
+
+                            className="modal__video-style"
+                            onLoad={spinner}
+                            loading="lazy"
+                            width="800"
+                            height="800"
+                            src={`${item.image}`}
+                            title="Publication"
+                            frameBorder="10"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </section>
-              ) : null}
-            </Button>
-            <iframe
-              hidden="true"
-              src={`${item.image}`}
-              srcSet={`${item.image}`}
-              alt={item.title}
-              loading="lazy"
-              className='publicationsImg'
-            />
-            {/* THIS IS THE TITLE BAR THAT NEEDS STYLING. YOU CANNOT CLICK ON OPEN PDF BUTTON WHEN THIS IS ACTIVATED. STYLING WILL NEED TO BE COMPLETE BEFORE WE CAN ADD IT.  */}
-
-
-            {/* <ImageListItemBar
-            title={item.title}
-            /> */}
-
-          </ImageListItem>
+                  </section>
+                ) : null}
+              </button>
+              <iframe
+                hidden="true"
+                src={`${item.image}`}
+                srcSet={`${item.image}`}
+                alt={item.title}
+                loading="lazy"
+                className='publicationsImg'
+              />
+            </Col>
         ))}
-      </ImageList>
-      
-    </Box>
+      </Row>
+
+    </Container>
   );
 
 

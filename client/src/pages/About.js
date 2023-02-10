@@ -25,7 +25,7 @@ export default function About() {
                 <Row className='row2'>
                     <Col className='text' xl={7} sm={12}>
                         <p className='par1'>
-                            Platform Imaging is an early-stage medical device company perfecting and commercializing disposable, miniaturized, autonomous, visualization devices for minimally invasive surgery (MIS) to enhance visualization, decrease the surgical footprint and restore complete autonomy and control of the camera to the surgeon.
+                            TO BE CHANGED!!!!Platform Technologies is an early-stage medical device company perfecting and commercializing disposable, miniaturized, autonomous, visualization devices for minimally invasive surgery (MIS) to enhance visualization, decrease the surgical footprint and restore complete autonomy and control of the camera to the surgeon.
                         </p>
                     </Col>
                     <Col className='imgCont' xl={5} sm={12}>
@@ -39,7 +39,7 @@ export default function About() {
                     </Col>
                     <Col className='text' xl={7} sm={12}>
                         <p className='par2'>
-                            Devices and techniques for routine laparoscopic procedures have not changed in nearly 40 years. As responsible innovators, it is our responsibility to develop devices that are less invasive to the patient, achieve better outcomes for the surgeon while lowering costs for healthcare facilities.
+                            Certain devices and techniques for laparoscopic procedures have not changed in 40 years. As dedicated and focused innovators, it is our responsibility to develop devices that are less invasive to the patient, drive better outcomes for the surgeon while lowering or maintaining costs for the healthcare facility.
                         </p>
                     </Col>
                 </Row>
@@ -58,7 +58,7 @@ export default function About() {
                 <div className='teamTxt'>
                     <h2>Meet Our Team</h2>
                     <p>
-                        Each member of the team has individual expertise in specific aspects of medical technology development and commercialization, it is the collective expertise that provides strong leadership for Platform Imaging. Among and between members of the management team, there is overlapping expertise in technology development, intellectual property, regulatory approval, and the commercialization process.
+                        Each member of the team has extensive, relevent experience in the varius aspects of medical technologydevelopment and commercialization. It is this collective expertise that provides strong leadership for Platform technologies. Among the members of the management team, there is overlapping ability to identify current issues, develop or locate subsequent solutions, manage intellectual property, regulatory approval and the successful commercialization process.
                     </p>
                 </div>
 
@@ -73,9 +73,9 @@ export default function About() {
                         <h5>Chief Executive Officer</h5>
                         <ul className='memberUl'>
                             <h6>24+ Years Medical Device Experieince:</h6>
-
-                            <li>VP Arthrex California </li>
-                            <li>Technology (Surgical Camera Division)</li>
+                            <li>President and CEO</li>
+                            <li>Board Member</li>
+                            <li>VP Arthrex California Technology (Surgical Camera Division)</li>
                             <li>Sr Director Business Development Arthrex Inc</li>
                             <li>VP Global Marketing</li>
                             <li>ConMed Linvatec</li>
