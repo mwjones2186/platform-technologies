@@ -16,9 +16,9 @@ export default function Footer() {
                                 <MDBIcon color='secondary' icon='gem' className='me-3' />
                                 Platform Technologies
                             </h6>
-                            <p>
+                            {/* <p>
                                 An early-stage medical device company perfecting and commercializing autonomous, disposable and miniaturized devices for minimally invasive surgery
-                            </p>
+                            </p> */}
                         </MDBCol>
 
                     <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
@@ -50,7 +50,7 @@ export default function Footer() {
 
                             <p>
                                 <MDBIcon color='secondary' icon='envelope' className='me-3'  />
-                                Sjones@platform-imaging.com
+                                Sjones@platformtechnologies.net
                             </p>
                             <p>
                                 <MDBIcon color='secondary' icon='phone' className='me-3' /> Office Number: (800)571-2222

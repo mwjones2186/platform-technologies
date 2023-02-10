@@ -3,7 +3,7 @@ import '../assets/css/Technology.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
+import visibot from '../assets/images/VISIBOT.png'
 import React from 'react'
 import administrator from '../assets/images/Administrator.jpg'
 import surgeon from '../assets/images/surgeon.jpeg'
@@ -21,32 +21,32 @@ export default function Technology() {
     return (
         <>
             <div className="header">
-                <h1>Novell Suction</h1>
+                <h1>Novell Curved Suction Irrigation Tip</h1>
             </div>
 
             <Container className="techContainer">
                 <Row className="row">
                     <div>
                         <h4>
-                        A Novel Laparoscopic Flexible Suction Device     
+                            A novel laparoscopic variable Curved suction irrigation tip
                         </h4>
                     </div>
 
                     <Col className="box" xl={4} md={6}>
                         <img className="techSurgeon" src={fifthArm2} alt="surgeon"></img>
-                        <h3>Novell Universal Multiplanar Suction</h3>
+                        <h3>Universal Multiplanar Suction Irrigation</h3>
                         <ul className="description">
-                            <p>The Fifth Arm Surgical Multiplanar Suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
+                            <p>The Platform Technologies Surgical Multiplanar Suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
 
-access.</p>
-                            
+                                access.</p>
+
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
                         <img className="techTeam" src={robot}></img>
                         <h3>Current Systems</h3>
                         <ul className="description">
-                          
+
                             <p>Suction/irrigation systems provide straight line access while other workarounds such as sponges or rubber tubes are time consuming. Robotic platforms offer a robotic suction/irrigation arm tool option that is expensive and limits the surgeons' capabilities in active dissection and bleeding control.</p>
                         </ul>
                     </Col>
@@ -54,25 +54,25 @@ access.</p>
                         <img className="techAdmin" src={challenge}></img>
                         <h3>Challenges</h3>
                         <ul className="description">
-                          
-                            <p>Patient anatomy can prevent access of suction/irrigation to surgical regions, interference with other surgical instruments, patients' organs block visibility and surgical dissection can present difficult orientations. When bleeding occurs, rapid visualization
 
-at the bleeding site is critical.</p>
+                            <p>Patient anatomy can prevent access of suction/irrigation to surgical regions and capitalize interference. With other surgical instruments, patients' organs block visibility and surgical dissection can present difficult orientations. When bleeding occurs, rapid visualization
+
+                                at the bleeding site is critical.</p>
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
                         <img className="techPatient" src={fifthArm1}></img>
                         <h3>The Solution</h3>
                         <ul className="description">
-                            <p>A Versatile "Sheath" over an existing metal rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
+                            <p>A Versatile "Sheath" over an existing rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
 
-A Disruptive Technology  </p>
+                             </p>
                         </ul>
                     </Col>
                     <Col className="bottomTxt" xl={12}>
                         <h4>Watch the Video!</h4>
                     </Col>
-                    <VisibotModal/>
+                    <VisibotModal />
                 </Row>
             </Container>
 
@@ -85,10 +85,13 @@ A Disruptive Technology  </p>
             <Container className="techContainer">
                 <Row className="row">
                     <div>
+                    <img className='visibotPicture' src={visibot}></img>
+
                         <h4>
-                            Visibot™ is a disposable, miniaturized, fully insertable module with automated pan and tilt functionality to replace the satandard camera, laprascope and lightsource. This provides a less invasive option for patients, superior visualization, decreased surgical footprint and increased efficiencies for all stakeholders.
+                            Visibot™ is a laparoscopic device with a miniaturized camera and light system that is guided by patented, AI software to autonomously track and follow the surgeons instruments and movements during surgery, through imaging recognition. It is a disposable device that replaces the standard camera, laparoscope and light guide and may also be utilized as a handheld laparoscope utilizing the AI tracking or manual tip deflaction. 
                         </h4>
                     </div>
+
 
                     <Col className="box" xl={4} md={6}>
                         <img className="techSurgeon" src={surgeon} alt="surgeon"></img>
@@ -105,6 +108,8 @@ A Disruptive Technology  </p>
                             <p>Disposable</p>
                             <li>Reduced ports x1</li>
                             <p>Camera port becomes an instrument port</p>
+                            <li>Need laparoscopic image with camera holder</li>
+                            <p>No camera removal required for lens cleaning</p>
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
@@ -125,7 +130,7 @@ A Disruptive Technology  </p>
                         <h3>Administration</h3>
                         <ul className="description">
                             <li>Reduce staffing requirement</li>
-                            <p>1 less FTE/Laproscope</p>
+                            <p>1 less FTE per lapar</p>
                             <li>Cost savings per procedure</li>
                             <p>Reduced procedure time, OR time, supplies, capital equipment and service contracts</p>
                             <li>Decreased risk to patient</li>

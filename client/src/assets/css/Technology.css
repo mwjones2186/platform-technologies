@@ -11,6 +11,7 @@
     font-size: 55px;
 }
 
+
 .techContainer h4 {
     text-align: center;
     width: 65%;
@@ -60,6 +61,13 @@
     height: 300px;
     border-radius: 10px;
 }
+
+.visibotPicture {
+    width: 75%;
+    display: flex;
+    
+}
+
 
 
 @media (max-width: 576px) {
