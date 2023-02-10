@@ -5,7 +5,7 @@ import ImageListItemBar from '@mui/material/ImageListItemBar';
 import React from "react";
 // import '../assets/css/Home.css'
 import { useState } from "react";
-import Image from 'react-bootstrap/Image'
+// import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 
 import publication1 from "../assets/publications/publication1.pdf"
