@@ -80,6 +80,11 @@
     color: #1b9fbd;
 }
 
+.visibotPicture {
+    width: 100%;
+    display: flex;
+}
+
 
 @media (max-width: 576px) {
     .box {

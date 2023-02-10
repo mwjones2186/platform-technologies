@@ -85,12 +85,13 @@ export default function Technology() {
             <Container className="techContainer">
                 <Row className="row">
                     <div>
-                    <img className='visibotPicture' src={visibot}></img>
+                   
 
                         <h4>
                             Visibot™ is a laparoscopic device with a miniaturized camera and light system that is guided by patented, AI software to autonomously track and follow the surgeons instruments and movements during surgery, through imaging recognition. It is a disposable device that replaces the standard camera, laparoscope and light guide and may also be utilized as a handheld laparoscope utilizing the AI tracking or manual tip deflaction. 
                         </h4>
                     </div>
+                    <img className='visibotPicture' src={visibot}></img>
 
 
                     <Col className="box" xl={4} md={6}>
