@@ -1,19 +1,59 @@
-.galleryText {
+.pubMainTxt {
+    text-align: center;
+}
+
+.pubMainTxt h1 {
+    width: 40%;
+    margin: 40px auto;
+    font-size: 50px;
     font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
 }
 
-.publicationsTxt {
-    visibility: hidden;
+.pubMainTxt h3 {
+    width: 70%;
+    margin: 35px auto;
 }
 
-.publicationsTxt:hover {
-    visibility: visible;
+.pubMainTxt h5 {
+    font-size: 17px;
 }
 
-.publicationsImg {
-    width: 100%;
-}
-
-.publicationsList {
+.pubListItem {
+    text-align: center;
     margin: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgb(38, 38, 38);
+}
+
+.pdfTxt {
+    padding: 10px 10px 20px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.publicationBtn {
+    width: 60%;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #1b9fbd;
+    border: 1px solid white;
+    color: white;
+}
+
+.publicationBtn:hover {
+    transition: all .25s ease-out;
+    background: #157990;
+}
+
+
+@media (max-width: 768px) {
+    .pubMainTxt h1 {
+        width: 100%;
+    }
 }
