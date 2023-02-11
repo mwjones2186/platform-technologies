@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da2426f8.css",
+    "main.js": "/static/js/main.99d2de6d.js",
+    "static/media/publication9.pdf": "/static/media/publication9.52683d040418316fe63c.pdf",
+    "static/media/visibotVid.mp4": "/static/media/visibotVid.cdf6d6a045fd2eabba73.mp4",
+    "static/media/publication8.pdf": "/static/media/publication8.5490c16ccd47ec99de62.pdf",
+    "static/media/publication3.pdf": "/static/media/publication3.3424298cf5a7fba91c1f.pdf",
+    "static/media/publication2.pdf": "/static/media/publication2.90cdfe4aaefac29118a3.pdf",
+    "static/media/publication1.pdf": "/static/media/publication1.13e3969e2e1bbb0c6e11.pdf",
+    "static/media/publication7.pdf": "/static/media/publication7.ddcf4d596dc6fb59085b.pdf",
+    "static/media/publication5.pdf": "/static/media/publication5.fe3523f76b352f2e7420.pdf",
+    "static/media/VISIBOT.png": "/static/media/VISIBOT.5a5549f6db7c1448af51.png",
+    "static/media/fifthArm2.webp": "/static/media/fifthArm2.b4ac0a7e5ebaa426bb64.webp",
+    "static/media/fifthArm1.webp": "/static/media/fifthArm1.6a778a98a7bf392b4849.webp",
+    "static/media/publication4.pdf": "/static/media/publication4.eb04e266b15b9c2700fe.pdf",
+    "static/media/challengeSurgery.jpg": "/static/media/challengeSurgery.2b5f0e3ae5b7b2d9efe6.jpg",
+    "static/media/publication6.pdf": "/static/media/publication6.14e59f68a16c30ef134f.pdf",
+    "static/media/patient.jpg": "/static/media/patient.bbe08e8e1b76fc59cf0c.jpg",
+    "static/media/Picture1.png": "/static/media/Picture1.6c5c5d162c9526445190.png",
+    "static/media/istockphoto-1342154721-170667a.jpg": "/static/media/istockphoto-1342154721-170667a.fb34437e6fe5c8f7cd82.jpg",
+    "static/media/hero image.webp": "/static/media/hero image.3c7ccd3b1dddc182aece.webp",
+    "static/media/istockphoto-1401699334-170667a.jpg": "/static/media/istockphoto-1401699334-170667a.5d713a1b6ff66497dd6d.jpg",
+    "static/media/Administrator.jpg": "/static/media/Administrator.4cd8841cf1af1a02aa42.jpg",
+    "static/media/robot.webp": "/static/media/robot.b6a42ae16293474eb6b3.webp",
+    "static/media/unnamed.png": "/static/media/unnamed.ddb6dd004c1394fd465d.png",
+    "static/media/surgeon.jpeg": "/static/media/surgeon.688cec15d9afb4f291a7.jpeg",
+    "static/media/team.jpg": "/static/media/team.a80b068d132bc54486a7.jpg",
+    "static/media/unnamed (1).png": "/static/media/unnamed (1).0569c92958c2ed78e052.png",
+    "static/media/sjHeadshot.webp": "/static/media/sjHeadshot.360a84edb290920edc96.webp",
+    "index.html": "/index.html",
+    "main.da2426f8.css.map": "/static/css/main.da2426f8.css.map",
+    "main.99d2de6d.js.map": "/static/js/main.99d2de6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da2426f8.css",
+    "static/js/main.99d2de6d.js"
+  ]
+}
