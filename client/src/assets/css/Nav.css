@@ -1,5 +1,5 @@
 .imgWrap {
-    width: 45%;
+    width: 40%;
 }
 
 .navimg {
@@ -39,7 +39,9 @@
 .navItem {
     font-size: 22px;
     color: white;
-    margin: 0 25px 0 25px;
+    width: 160px;
+    text-align: center;
+    margin: 10px;
 }
 
 .navItem:hover {
@@ -67,7 +69,8 @@
     }
 
     .navItem {
-        margin: 15px;
+        width: 115px;
+        margin: 6px;
         font-size: 17px;
     }
 
@@ -76,7 +79,7 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 
     .imgWrap {
         width: 100%;
@@ -99,8 +102,9 @@
     }
 
     .navItem {
-        margin: 5px;
+        margin: 10px;
         font-size: 20px;
+        width: 20%;
     }
 
     .socials {

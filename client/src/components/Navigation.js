@@ -8,7 +8,7 @@ import Home from '../pages/Home';
 
 export default function Navigation() {
     return (
-        <Navbar className='navFull' collapseOnSelect expand='lg' bg='dark'>
+        <Navbar className='navFull' collapseOnSelect expand='lg' bg='black'>
             <Navbar.Toggle aria-controls='navbarScroll' data-bs-target='#navbarScroll' />
             <Navbar.Collapse id='navbarScroll'>
 
