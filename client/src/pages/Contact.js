@@ -5,24 +5,24 @@ import "../assets/css/Contact.css";
 import Form from "react-bootstrap/Form";
 import { useState, useRef } from 'react'
 import Button from 'react-bootstrap/Button'
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
   const refForm = useRef()
 
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs.sendForm('service_u3nl63j', 'template_nxfxj0u', refForm.current, 'nd5F-JQfuBSg3CQaS')
-  //     .then(() => {
-  //       alert('Message successfully sent!');
-  //       e.target.reset();
-  //     }, () => {
-  //       alert('Failed to send message, please try again')
-  //     });
-  // };
+    emailjs.sendForm('service_u3nl63j', 'template_nxfxj0u', refForm.current, 'nd5F-JQfuBSg3CQaS')
+      .then(() => {
+        alert('Message successfully sent!');
+        e.target.reset();
+      }, () => {
+        alert('Failed to send message, please try again')
+      });
+  };
 
 
 
@@ -162,7 +162,7 @@ export default function Contact() {
                 </Col>
               </Row>
 
-              <button className="contactBtn" type="submit">Send</button>
+              <button className="contactBtn" href={sendEmail} type="submit">Send</button>
 
             </Form>
           </Col>
