@@ -15,7 +15,7 @@ import fifthArm2 from '../assets/images/fifthArm2.webp'
 import robot from '../assets/images/robot.webp'
 import challenge from '../assets/images/challengeSurgery.jpg'
 import VisibotModal from '../components/VisibotModal';
-
+import heroImg from '../assets/images/hero image.webp'
 
 export default function Technology() {
     return (
@@ -33,24 +33,6 @@ export default function Technology() {
                     </div>
 
                     <Col className="box" xl={4} md={6}>
-                        <img className="techSurgeon" src={fifthArm2} alt="surgeon"></img>
-                        <h3>Universal Multiplanar Suction Irrigation</h3>
-                        <ul className="description">
-                            <p>The Platform Technologies Surgical Multiplanar Suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
-
-                                access.</p>
-
-                        </ul>
-                    </Col>
-                    <Col className="box" xl={4} md={6}>
-                        <img className="techTeam" src={robot}></img>
-                        <h3>Current Systems</h3>
-                        <ul className="description">
-
-                            <p>Suction/irrigation systems provide straight line access while other workarounds such as sponges or rubber tubes are time consuming. Robotic platforms offer a robotic suction/irrigation arm tool option that is expensive and limits the surgeons' capabilities in active dissection and bleeding control.</p>
-                        </ul>
-                    </Col>
-                    <Col className="box" xl={4} md={6}>
                         <img className="techAdmin" src={challenge}></img>
                         <h3>Challenges</h3>
                         <ul className="description">
@@ -60,6 +42,16 @@ export default function Technology() {
                                 at the bleeding site is critical.</p>
                         </ul>
                     </Col>
+
+                    <Col className="box" xl={4} md={6}>
+                        <img className="techTeam" src={robot}></img>
+                        <h3>Current Systems</h3>
+                        <ul className="description">
+
+                            <p>Suction/irrigation systems provide straight line access while other workarounds such as sponges or rubber tubes are time consuming. Robotic platforms offer a robotic suction/irrigation arm tool option that is expensive and limits the surgeons' capabilities in active dissection and bleeding control.</p>
+                        </ul>
+                    </Col>
+
                     <Col className="box" xl={4} md={6}>
                         <img className="techPatient" src={fifthArm1}></img>
                         <h3>The Solution</h3>
@@ -69,11 +61,27 @@ export default function Technology() {
                              </p>
                         </ul>
                     </Col>
+
+                    <Col className="box" xl={4} md={6}>
+                        <img className="techSurgeon" src={fifthArm2} alt="surgeon"></img>
+                        <h3>Universal Multiplanar Suction Irrigation</h3>
+                        <ul className="description">
+                            <p>The Platform Technologies Surgical Multiplanar Suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
+
+                                access.</p>
+
+                        </ul>
+                    </Col>
+                                
                     <Col className="bottomTxt" xl={12}>
                         <h4>Watch the Video!</h4>
                     </Col>
                     <VisibotModal />
                 </Row>
+            </Container>
+
+            <Container>
+                <img src={heroImg} alt= 'person doing stuff'></img>
             </Container>
 
 
@@ -88,7 +96,7 @@ export default function Technology() {
                    
 
                         <h4>
-                            Visibot™ is a laparoscopic device with a miniaturized camera and light system that is guided by patented, AI software to autonomously track and follow the surgeons instruments and movements during surgery, through imaging recognition. It is a disposable device that replaces the standard camera, laparoscope and light guide and may also be utilized as a handheld laparoscope utilizing the AI tracking or manual tip deflaction. 
+                            Visibot™ is an insertable laparoscopic device with a miniaturized camera and light system that is guided by patented, AI software to autonomously track and follow the surgeons instruments and movements during surgery, through imaging recognition. It is a disposable device that replaces the standard camera, laparoscope and light guide and may also be utilized as a handheld laparoscope utilizing the AI tracking or manual tip deflaction. 
                         </h4>
                     </div>
                     <img className='visibotPicture' src={visibot}></img>
@@ -102,6 +110,7 @@ export default function Technology() {
                             <p>No camera holder required</p>
                             <p>Automated pan/tilt</p>
                             <li>Camera may be positioned anywhere withing the abdomen for optimal viewing</li>
+                            <br></br>
                             <li>No camera for fogging or lens cleaning</li>
                             <p>Distal LED's = No fogging</p>
                             <p>Lens washing feature</p>
