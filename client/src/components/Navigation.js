@@ -13,15 +13,15 @@ export default function Navigation() {
             <Navbar.Collapse id='navbarScroll'>
 
 
-                <NavLink className='imgWrap' href='/' >
+                <NavLink className='imgWrap' href='/'>
                     <img className='navimg' src={Logo} alt="camera img" />
                 </NavLink>
 
                 <Nav className='navWrap'>
 
                     <NavLink className='navItem' href='/'>
-                    <FontAwesomeIcon className='homeIcon' icon={faHome} />Home
-                        </NavLink>
+                        <FontAwesomeIcon className='homeIcon' icon={faHome} />Home
+                    </NavLink>
                     <NavLink className='navItem login' href='/about'>Who We Are</NavLink>
                     <NavLink className='navItem login' href='/technology'>Technology</NavLink>
                     <NavLink className='navItem' href='/literature'>Literature</NavLink>

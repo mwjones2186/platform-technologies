@@ -88,8 +88,14 @@
 .teamMember h5 {
     font-weight: 100;
     color: #1b9fbd;
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 0;
+}
+
+.teamMember h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
 }
 
 .memberUl {
@@ -103,6 +109,36 @@
     margin: 10px;
 }
 
+.hiddenDiv {
+    display: none;
+}
+
+.visibleDiv {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+#memberBtn1,
+#memberBtn2,
+#memberBtn3 {
+    padding: 10px;
+    margin: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    background: rgb(60, 60, 60);
+    border: 1px solid white;
+    color: white;
+}
+
+#memberBtn1:hover,
+#memberBtn2:hover,
+#memberBtn3:hover {
+    transition: all .5s ease-out;
+    background: rgb(60, 60, 60);
+    border: 1px solid #1b9fbd;
+    color: #1b9fbd;
+}
 
 @media (max-width: 1199px) {
 
@@ -110,6 +146,14 @@
     .row2,
     .row3 {
         text-align: center;
+        border: none;
+    }
+
+    .par1,
+    .par2,
+    .par3 {
+        text-align: center;
+        margin: 15px 15px;
     }
 
     .bottomImg {
