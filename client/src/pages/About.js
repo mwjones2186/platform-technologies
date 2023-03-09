@@ -25,7 +25,7 @@ export default function About() {
                 <Row className='row2'>
                     <Col className='text' xl={7} sm={12}>
                         <p className='par1'>
-                            TO BE CHANGED!!!!Platform Technologies is an early-stage medical device company perfecting and commercializing disposable, miniaturized, autonomous, visualization devices for minimally invasive surgery (MIS) to enhance visualization, decrease the surgical footprint and restore complete autonomy and control of the camera to the surgeon.
+                        Platform Technologies is identifying pain points in minimally invasive surgery (MIS) and locating and developing product solutions to help provide superior outcomes for the surgeon, benefitting the patient and healthcare facility.
                         </p>
                     </Col>
                     <Col className='imgCont' xl={5} sm={12}>
@@ -47,7 +47,7 @@ export default function About() {
 
                 <Col className='text' xl={12} sm={12}>
                     <p className='par3'>
-                        We invite you to learn more about Platform Imaging and our commitment to improving outcomes in minimally invasive surgery.
+                        We invite you to learn more about Platform Technologies and our commitment to improving outcomes in minimally invasive surgery.
                     </p>
                 </Col>
 
@@ -58,7 +58,7 @@ export default function About() {
                 <div className='teamTxt'>
                     <h2>Meet Our Team</h2>
                     <p>
-                        Each member of the team has extensive, relevent experience in the varius aspects of medical technologydevelopment and commercialization. It is this collective expertise that provides strong leadership for Platform technologies. Among the members of the management team, there is overlapping ability to identify current issues, develop or locate subsequent solutions, manage intellectual property, regulatory approval and the successful commercialization process.
+                        Each member of the team has extensive, relevent experience in the varius aspects of medical technology development and commercialization. It is this collective expertise that provides strong leadership for Platform technologies. Among the members of the management team, there is overlapping ability to identify current issues, develop or locate subsequent solutions, manage intellectual property, regulatory approval and the successful commercialization process.
                     </p>
                 </div>
 
@@ -70,17 +70,16 @@ export default function About() {
                             alt="Steve Jones">
                         </img>
                         <h4>Steve Jones</h4>
+                        <li>President and CEO</li>
                         <h5>Chief Executive Officer</h5>
                         <ul className='memberUl'>
                             <h6>24+ Years Medical Device Experieince:</h6>
-                            <li>President and CEO</li>
+                            
                             <li>Board Member</li>
                             <li>VP Arthrex California Technology (Surgical Camera Division)</li>
                             <li>Sr Director Business Development Arthrex Inc</li>
-                            <li>VP Global Marketing</li>
-                            <li>ConMed Linvatec</li>
-                            <li>Director Distributor Sales</li>
-                            <li>ConMed Linvatec</li>
+                            <li>VP Global Marketing ConMed Linvatec</li>
+                            <li>Director Distributor Sales ConMed Linvatec</li>
                             <li>Clinical PA</li>
                         </ul>
                     </Col>
