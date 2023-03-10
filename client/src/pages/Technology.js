@@ -4,12 +4,11 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import visibot from '../assets/images/VISIBOT.png'
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import administrator from '../assets/images/Administrator.jpg'
 import surgeon from '../assets/images/surgeon.jpeg'
 import team from '../assets/images/team.jpg'
 import patient from '../assets/images/patient.jpg'
-import { ListGroupItem } from 'react-bootstrap';
 import fifthArm1 from '../assets/images/fifthArm1.webp'
 import fifthArm2 from '../assets/images/fifthArm2.webp'
 import robot from '../assets/images/robot.webp'
@@ -17,7 +16,37 @@ import challenge from '../assets/images/challengeSurgery.jpg'
 import VisibotModal from '../components/VisibotModal';
 import heroImg from '../assets/images/hero image.webp'
 
+
+
 export default function Technology() {
+
+    const textRef = useRef(null);
+
+    // change text for slideshow here
+    const techSlideObj = {
+        txt1: 'text 1 text text text text text 1 text text text text',
+        txt2: 'text 2 text text text text text 2 text text text text text 2 text text text text text 2 text text text text',
+        txt3: 'text 3 text text text text text 3 text text text texttext 3 text text text text text 3 text text text text text 3 text text text text text 3 text text text text',
+        txt4: 'text 4 text text',
+        txt5: 'text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text',
+    }
+
+    function ChangeTxt({ techSlideObj }) {
+        let index = 0;
+        useEffect(() => {
+            const intervalId = setInterval(() => {
+                const keys = Object.keys(techSlideObj);
+                const key = keys[index % keys.length];
+                textRef.current.innerText = techSlideObj[key];
+                index++;
+                // if you want to change interval at which text changes, change number below
+            }, 5000);
+
+            return () => clearInterval(intervalId);
+        }, [techSlideObj]);
+    }
+    ChangeTxt({techSlideObj})
+
     return (
         <>
             <div className="header">
@@ -58,7 +87,7 @@ export default function Technology() {
                         <ul className="description">
                             <p>A Versatile "Sheath" over an existing rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
 
-                             </p>
+                            </p>
                         </ul>
                     </Col>
 
@@ -72,16 +101,17 @@ export default function Technology() {
 
                         </ul>
                     </Col>
-                                
+
                     <Col className="bottomTxt" xl={12}>
-                        <h4>Watch the Video!</h4>
+                        <h4>Click button below to watch a video containing the Novell Suction!</h4>
                     </Col>
                     <VisibotModal />
                 </Row>
             </Container>
 
-            <Container>
-                <img src={heroImg} alt= 'person doing stuff'></img>
+            <Container className='techSlideCont'>
+                <img className='techSlideImg' src={heroImg} alt='person doing stuff'></img>
+                <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>this text will never repeat!!!!!</span>
             </Container>
 
 
@@ -93,10 +123,8 @@ export default function Technology() {
             <Container className="techContainer">
                 <Row className="row">
                     <div>
-                   
-
                         <h4>
-                            Visibot™ is an insertable laparoscopic device with a miniaturized camera and light system that is guided by patented, AI software to autonomously track and follow the surgeons instruments and movements during surgery, through imaging recognition. It is a disposable device that replaces the standard camera, laparoscope and light guide and may also be utilized as a handheld laparoscope utilizing the AI tracking or manual tip deflaction. 
+                            Visibot™ is an insertable laparoscopic device with a miniaturized camera and light system that is guided by patented, AI software to autonomously track and follow the surgeons instruments and movements during surgery, through imaging recognition. It is a disposable device that replaces the standard camera, laparoscope and light guide and may also be utilized as a handheld laparoscope utilizing the AI tracking or manual tip deflaction.
                         </h4>
                     </div>
                     <img className='visibotPicture' src={visibot}></img>
