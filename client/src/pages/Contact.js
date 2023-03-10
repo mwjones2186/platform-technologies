@@ -119,6 +119,9 @@ export default function Contact() {
 
             {/* <Row>
               <Col xl={12}>
+
+mwjones2186@gmail.com
+
                 <Form.Group className="contactInput" controlId="formSuffix">
                   <Form.Select name="products" aria-label="Default select example">
                     <Form.Label>Products</Form.Label>
