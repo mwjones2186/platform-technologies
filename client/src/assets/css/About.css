@@ -146,7 +146,11 @@
     .row2,
     .row3 {
         text-align: center;
-        border: none;
+    }
+
+    .row2,
+    .row3 {
+        border-bottom: 2px solid white
     }
 
     .par1,

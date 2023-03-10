@@ -17,6 +17,10 @@
     margin: 5px 0;
 }
 
+.messageBox input {
+    height: 200px;
+}
+
 .contactInput input::placeholder {
     color: #808080;
 }

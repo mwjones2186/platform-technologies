@@ -137,6 +137,8 @@
     }
 
     .techSlideTxt {
-        font-size: 50px;
+        width: 75%;
+        max-height: 95%;
+        font-size: 15px;
     }
 }
