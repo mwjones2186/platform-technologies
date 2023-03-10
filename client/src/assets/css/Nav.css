@@ -8,7 +8,7 @@
 }
 
 .navbar-toggler {
-    background: #1b9fbd;
+    background: #000000;
 }
 
 .navbar-toggler-icon {
@@ -87,13 +87,7 @@
         left: 0;
         width: 35%;
         justify-content: center;
-        border: 2px solid white;
-        border-radius: 30px;
         padding: 10px;
-    }
-
-    .navimg:hover {
-        width: 42%;
     }
 
     .navItem {

@@ -24,11 +24,11 @@ export default function Technology() {
 
     // change text for slideshow here
     const techSlideObj = {
-        txt1: 'text 1',
-        txt2: 'text 2',
-        txt3: 'text 3',
-        txt4: 'text 4',
-        txt5: 'text 5',
+        txt1: 'text 1 text text text text text 1 text text text text',
+        txt2: 'text 2 text text text text text 2 text text text text text 2 text text text text text 2 text text text text',
+        txt3: 'text 3 text text text text text 3 text text text texttext 3 text text text text text 3 text text text text text 3 text text text text text 3 text text text text',
+        txt4: 'text 4 text text',
+        txt5: 'text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text',
     }
 
     function ChangeTxt({ techSlideObj }) {
@@ -111,7 +111,7 @@ export default function Technology() {
 
             <Container className='techSlideCont'>
                 <img className='techSlideImg' src={heroImg} alt='person doing stuff'></img>
-                <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>text 1</span>
+                <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>this text will never repeat!!!!!</span>
             </Container>
 
 

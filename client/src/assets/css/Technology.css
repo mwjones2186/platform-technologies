@@ -94,8 +94,8 @@
 .techSlideImg {
     opacity: .5;
     filter: brightness(110%);
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 3px solid white;
+    border-radius: 10px;
     width: 100%;
 }
 
@@ -104,8 +104,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 75px;
-    width: 100%;
+    font-size: 35px;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1400px) {
