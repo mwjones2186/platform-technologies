@@ -28,7 +28,7 @@ export default function Technology() {
         txt2: 'text 2 text text text text text 2 text text text text text 2 text text text text text 2 text text text text',
         txt3: 'text 3 text text text text text 3 text text text texttext 3 text text text text text 3 text text text text text 3 text text text text text 3 text text text text',
         txt4: 'text 4 text text',
-        txt5: 'text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text',
+        txt5: 'text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text',
     }
 
     function ChangeTxt({ techSlideObj }) {

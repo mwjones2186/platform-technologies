@@ -103,7 +103,7 @@ export default function Contact() {
             <Row>
               <Col xl={12}>
                 <Form.Group className="contactInput" controlId="formPhone">
-                  <Form.Control required type="tel" name="tel" placeholder="Contact Number" />
+                  <Form.Control type="tel" name="tel" placeholder="Contact Number" />
                 </Form.Group>
               </Col>
             </Row>
@@ -134,7 +134,7 @@ export default function Contact() {
 
             <Row>
               <Col xl={12}>
-                <Form.Group className="contactInput" controlId="formSubject">
+                <Form.Group className="contactInput messageBox" controlId="formSubject">
                   <Form.Control required type="name" name="message" placeholder="Enter your message to us!" />
                 </Form.Group>
               </Col>
