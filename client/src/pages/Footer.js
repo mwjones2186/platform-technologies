@@ -21,42 +21,50 @@ export default function Footer() {
                             </p> */}
                         </MDBCol>
 
-                    <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-                        <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
-                        <p>
-                            <a href='/technology' className='text-reset'>
-                                Technology
-                            </a>
-                        </p>
-                        <p>
-                            <a href='/literature' className='text-reset'>
-                                Literature
-                            </a>
-                        </p>
-                        <p>
-                            <a href='/aboutus' className='text-reset'>
-                                Who We Are
-                            </a>
-                        </p>
-                        <p>
-                            <a href='#!' className='text-reset'>
-                                Contact Us
-                            </a>
-                        </p>
-                    </MDBCol>
+                        <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+                            <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
+                            <p>
+                                <a href='/technology' className='text-reset'>
+                                    Technology
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/literature' className='text-reset'>
+                                    Literature
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/aboutus' className='text-reset'>
+                                    Who We Are
+                                </a>
+                            </p>
+                            <p>
+                                <a href='/contact' className='text-reset'>
+                                    Contact Us
+                                </a>
+                            </p>
+                        </MDBCol>
 
                         <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
 
                             <p>
-                                <MDBIcon color='secondary' icon='envelope' className='me-3'  />
-                                Sjones@platformtechnologies.net
+                                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                                <a href='mailto:Sjones@platformtechnologies.net'>
+                                    Sjones@platformtechnologies.net
+                                </a>
                             </p>
                             <p>
-                                <MDBIcon color='secondary' icon='phone' className='me-3' /> Office Number: (800)571-2222
+                                <MDBIcon color='secondary' icon='phone' className='me-3' />
+                                <a href='tel:(800)571-2222'>
+                                    Office Number: (800)571-2222
+                                </a>
                             </p>
                             <p>
-                                <MDBIcon color='secondary' icon='print' className='me-3' /> Address: 4851 Tamiami Trail N Suite 200, Naples, FL 34103
+                                <MDBIcon color='secondary' icon='print' className='me-3' />
+                                <a target="_blank" href='https://maps.google.com/maps?q=4851+Tamiami+Trail+N+Suite+200,+Naples,+FL+34103'>
+                                    Address: 4851 Tamiami Trail N Suite 200, Naples, FL 34103
+                                </a>
                             </p>
                         </MDBCol>
                     </MDBRow>

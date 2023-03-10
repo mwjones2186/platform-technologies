@@ -14,33 +14,28 @@ export default function Contact() {
 
   const refForm = useRef()
 
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_ohv8iw6', 'template_wyjo3jx', refForm.current, 'nd5F-JQfuBSg3CQaS')
-      .then(() => {
-        alert('Message successfully sent!');
-        e.target.reset();
-      }, () => {
-        alert('Failed to send message, please try again')
-      });
-  };
-
-
-
   const [validated, setValidated] = useState(false);
 
-  const handleSubmit = function (event) {
-    const form = event.currentTarget;
-    if (form.checkValidity() === false) {
-      event.preventDefault();
-      event.stopPropagation();
-    }
+  const sendEmail = (e) => {
+    const form = e.currentTarget;
 
-    sendEmail()
+    if (form.checkValidity() === false) {
+      e.preventDefault();
+      e.stopPropagation();
+    } else {
+      emailjs.sendForm('service_ohv8iw6', 'template_wyjo3jx', refForm.current, 'nd5F-JQfuBSg3CQaS')
+        .then(() => {
+          alert('Message successfully sent!');
+          e.target.reset();
+          setValidated(true);
+          document.location.reload();
+        }, () => {
+          alert('Failed to send message, please try again')
+        });
+    }
+    e.preventDefault();
     setValidated(true);
-  }
+  };
 
   return (
     <Container>
@@ -52,14 +47,15 @@ export default function Contact() {
               Want to get in touch? Fill out the form and we will get in touch. Let us know how we can help!
             </p>
             <h3>Need to place an order?</h3>
-            <Button href="/"> Click Here!</Button>
+            {/* need to switch the href to wherever their website is to place order */}
+            <Button className="placeOrderBtn" href="/"> Click Here!</Button>
           </div>
         </Col>
 
         <Col xl={6} lg={6} xs={12} className="text-zone">
           <h1>GET IN TOUCH</h1>
 
-          <Form ref={refForm} onSubmit={handleSubmit} noValidate validated={validated} >
+          <Form className="contactForm" ref={refForm} onSubmit={sendEmail} noValidate validated={validated} >
             <Row>
 
               {/* first name */}
@@ -82,15 +78,15 @@ export default function Contact() {
             <Row>
               <Col xl={12}>
                 <Form.Group className="contactInput" controlId="formSuffix">
-                  <Form.Select aria-label="Default select example">
+                  <Form.Select className="suffixDropDown" name="suffix" aria-label="Default select example">
                     <Form.Label>Suffix</Form.Label>
                     <option>Suffix</option>
-                    <option name="suffix" value="1">MD</option>
-                    <option name="suffix" value="2">DO</option>
-                    <option name="suffix" value="3">DPM</option>
-                    <option name="suffix" value="4">Sr.</option>
-                    <option name="suffix" value="5">Jr.</option>
-                    <option name="suffix" value="6">III</option>
+                    <option name="suffix" value="MD">MD</option>
+                    <option name="suffix" value="DO">DO</option>
+                    <option name="suffix" value="DPM">DPM</option>
+                    <option name="suffix" value="Sr.">Sr.</option>
+                    <option name="suffix" value="Jr.">Jr.</option>
+                    <option name="suffix" value="III">III</option>
                   </Form.Select>
                 </Form.Group>
               </Col>
@@ -116,29 +112,29 @@ export default function Contact() {
             <Row>
               <Col xl={12}>
                 <Form.Group className="contactInput" controlId="formAffiliation">
-                  <Form.Control type="text" name="affiliation" placeholder="Please tell us your role within Healthcare" />
+                  <Form.Control required type="text" name="affiliation" placeholder="Please tell us your role within Healthcare" />
                 </Form.Group>
               </Col>
             </Row>
 
-            <Row>
+            {/* <Row>
               <Col xl={12}>
-                <Form.Group required className="contactInput" controlId="formSuffix">
+                <Form.Group className="contactInput" controlId="formSuffix">
                   <Form.Select name="products" aria-label="Default select example">
                     <Form.Label>Products</Form.Label>
                     <option>Products</option>
-                    <option name="suffix" value="1">I'd love to learn more about the Novelle Suction Device!</option>
-                    <option name="suffix" value="2">I'd love to learn more about the Visibot™</option>
-                    <option name="suffix" value="3">other</option>
+                    <option name="products" value="I'd love to learn more about the Novelle Suction Device!">I'd love to learn more about the Novelle Suction Device!</option>
+                    <option name="products" value="I'd love to learn more about the Visibot™">I'd love to learn more about the Visibot™</option>
+                    <option name="products" value="other">other</option>
 
                   </Form.Select>
                 </Form.Group>
               </Col>
-            </Row>
+            </Row> */}
 
             <Row>
               <Col xl={12}>
-                <Form.Group className="contactInput" controlId="formSubject">
+                <Form.Group className="contactInput messageBox" controlId="formSubject">
                   <Form.Control required type="name" name="message" placeholder="Enter your message to us!" />
                 </Form.Group>
               </Col>

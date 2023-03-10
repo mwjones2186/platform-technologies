@@ -7,6 +7,14 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
 .App {
     font-family: 'Quicksand', sans-serif;
 }

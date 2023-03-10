@@ -25,7 +25,7 @@ export default function About() {
                 <Row className='row2'>
                     <Col className='text' xl={7} sm={12}>
                         <p className='par1'>
-                            TO BE CHANGED!!!!Platform Technologies is an early-stage medical device company perfecting and commercializing disposable, miniaturized, autonomous, visualization devices for minimally invasive surgery (MIS) to enhance visualization, decrease the surgical footprint and restore complete autonomy and control of the camera to the surgeon.
+                            Platform Technologies is identifying pain points in minimally invasive surgery (MIS) and locating and developing product solutions to help provide superior outcomes for the surgeon, benefitting the patient and healthcare facility.
                         </p>
                     </Col>
                     <Col className='imgCont' xl={5} sm={12}>
@@ -47,7 +47,7 @@ export default function About() {
 
                 <Col className='text' xl={12} sm={12}>
                     <p className='par3'>
-                        We invite you to learn more about Platform Imaging and our commitment to improving outcomes in minimally invasive surgery.
+                        We invite you to learn more about Platform Technologies and our commitment to improving outcomes in minimally invasive surgery.
                     </p>
                 </Col>
 
@@ -58,7 +58,7 @@ export default function About() {
                 <div className='teamTxt'>
                     <h2>Meet Our Team</h2>
                     <p>
-                        Each member of the team has extensive, relevent experience in the varius aspects of medical technologydevelopment and commercialization. It is this collective expertise that provides strong leadership for Platform technologies. Among the members of the management team, there is overlapping ability to identify current issues, develop or locate subsequent solutions, manage intellectual property, regulatory approval and the successful commercialization process.
+                        Each member of the team has extensive, relevent experience in the varius aspects of medical technology development and commercialization. It is this collective expertise that provides strong leadership for Platform technologies. Among the members of the management team, there is overlapping ability to identify current issues, develop or locate subsequent solutions, manage intellectual property, regulatory approval and the successful commercialization process.
                     </p>
                 </div>
 
@@ -70,19 +70,32 @@ export default function About() {
                             alt="Steve Jones">
                         </img>
                         <h4>Steve Jones</h4>
-                        <h5>Chief Executive Officer</h5>
-                        <ul className='memberUl'>
-                            <h6>24+ Years Medical Device Experieince:</h6>
-                            <li>President and CEO</li>
-                            <li>Board Member</li>
-                            <li>VP Arthrex California Technology (Surgical Camera Division)</li>
-                            <li>Sr Director Business Development Arthrex Inc</li>
-                            <li>VP Global Marketing</li>
-                            <li>ConMed Linvatec</li>
-                            <li>Director Distributor Sales</li>
-                            <li>ConMed Linvatec</li>
-                            <li>Clinical PA</li>
-                        </ul>
+                        <div className='hiddenDiv visibleDiv' id='member1'>
+                            <h5>President and CEO / Chief Executive Officer</h5>
+                            <ul className='memberUl'>
+                                <h6>24+ Years Medical Device Experieince:</h6>
+
+                                <li>Board Member</li>
+                                <li>VP Arthrex California Technology (Surgical Camera Division)</li>
+                                <li>Sr Director Business Development Arthrex Inc</li>
+                                <li>VP Global Marketing ConMed Linvatec</li>
+                                <li>Director Distributor Sales ConMed Linvatec</li>
+                                <li>Clinical PA</li>
+                            </ul>
+                        </div>
+                        <button id='memberBtn1' onClick={() => {
+                            const member1 = document.querySelector('#member1');
+                            member1.classList.toggle('hiddenDiv');
+
+                            const memberBtn1 = document.querySelector('#memberBtn1');
+
+
+                            if (memberBtn1.innerText === 'Click To Learn More!') {
+                                memberBtn1.innerText = 'Click to hide info'
+                            } else {
+                                memberBtn1.innerText = 'Click To Learn More!'
+                            }
+                        }}>Click To Learn More!</button>
                     </Col>
 
                     <Col xl={3} className='teamMember'>
@@ -91,19 +104,33 @@ export default function About() {
                             alt="RAYMOND RACKLEY,BME M.D.">
                         </img>
                         <h4>Raymond Rackley, BME M.D</h4>
-                        <h5>Advisory Board Chair</h5>
-                        <ul className='memberUl'>
-                            <li>Professor of Surgery at Cleveland
-                                Clinic's Glickman Urology Center for
-                                Pelvic Medicine and Reconstructive
-                                Surgery</li>
-                            <li>General Managing Partner Nirvana
-                                Healthcare Ventures</li>
-                            <li>MD from Case Western Reserve
-                                University Medical School and his BS in
-                                Biomedical Engineering from Duke
-                                Engineering.</li>
-                        </ul>
+
+                        <div className='hiddenDiv visibleDiv' id='member2'>
+                            <h5>Advisory Board Chair</h5>
+                            <ul className='memberUl'>
+                                <li>Professor of Surgery at Cleveland
+                                    Clinic's Glickman Urology Center for
+                                    Pelvic Medicine and Reconstructive
+                                    Surgery</li>
+                                <li>General Managing Partner Nirvana
+                                    Healthcare Ventures</li>
+                                <li>MD from Case Western Reserve
+                                    University Medical School and his BS in
+                                    Biomedical Engineering from Duke
+                                    Engineering.</li>
+                            </ul>
+                        </div>
+                        <button id='memberBtn2' onClick={() => {
+                            const member2 = document.querySelector('#member2');
+                            member2.classList.toggle('hiddenDiv');
+
+                            const memberBtn2 = document.querySelector('#memberBtn2');
+                            if (memberBtn2.innerText === 'Click To Learn More!') {
+                                memberBtn2.innerText = 'Click to hide info'
+                            } else {
+                                memberBtn2.innerText = 'Click To Learn More!'
+                            }
+                        }}>Click To Learn More!</button>
                     </Col>
 
                     <Col xl={3} md={6} className='teamMember'>
@@ -112,13 +139,27 @@ export default function About() {
                             alt="Ethan Rigel">
                         </img>
                         <h4>Ethan Rigel</h4>
-                        <h5>Board Member</h5>
-                        <ul className='memberUl'>
-                            <li>Founding and Managing Partner of Gore Range Capital</li>
-                            <li>invested $900+ million in companies with a combined enterprise value $2B+</li>
-                            <li>Massachusetts Institute of Technology (Bachelor of Science in Economics and Bachelor of Science in Management Science)</li>
-                            <li>MBA from the Fuqua School of Business at Duke University.</li>
-                        </ul>
+
+                        <div className='hiddenDiv visibleDiv' id='member3'>
+                            <h5>Board Member</h5>
+                            <ul className='memberUl'>
+                                <li>Founding and Managing Partner of Gore Range Capital</li>
+                                <li>invested $900+ million in companies with a combined enterprise value $2B+</li>
+                                <li>Massachusetts Institute of Technology (Bachelor of Science in Economics and Bachelor of Science in Management Science)</li>
+                                <li>MBA from the Fuqua School of Business at Duke University.</li>
+                            </ul>
+                        </div>
+                        <button id='memberBtn3' onClick={() => {
+                            const member3 = document.querySelector('#member3');
+                            member3.classList.toggle('hiddenDiv');
+
+                            const memberBtn3 = document.querySelector('#memberBtn3');
+                            if (memberBtn3.innerText === 'Click To Learn More!') {
+                                memberBtn3.innerText = 'Click to hide info'
+                            } else {
+                                memberBtn3.innerText = 'Click To Learn More!'
+                            }
+                        }}>Click To Learn More!</button>
                     </Col>
 
                     {/* <Col xl={3} className='teamMember'>
