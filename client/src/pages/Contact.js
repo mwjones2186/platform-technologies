@@ -134,8 +134,8 @@ export default function Contact() {
 
             <Row>
               <Col xl={12}>
-                <Form.Group className="contactInput messageBox" controlId="formSubject">
-                  <Form.Control required type="name" name="message" placeholder="Enter your message to us!" />
+                <Form.Group controlId="formSubject">
+                  <textarea className="contactInput messageBox" type="text" required name="message" placeholder="Enter your message to us!"></textarea>
                 </Form.Group>
               </Col>
             </Row>
