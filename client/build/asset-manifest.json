@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f25dd02.css",
-    "main.js": "/static/js/main.1c3ac8f3.js",
+    "main.js": "/static/js/main.e4cf0a79.js",
     "static/media/publication9.pdf": "/static/media/publication9.52683d040418316fe63c.pdf",
     "static/media/visibotVid.mp4": "/static/media/visibotVid.cdf6d6a045fd2eabba73.mp4",
     "static/media/publication8.pdf": "/static/media/publication8.5490c16ccd47ec99de62.pdf",
@@ -20,20 +20,20 @@
     "static/media/patient.jpg": "/static/media/patient.bbe08e8e1b76fc59cf0c.jpg",
     "static/media/istockphoto-1342154721-170667a.jpg": "/static/media/istockphoto-1342154721-170667a.fb34437e6fe5c8f7cd82.jpg",
     "static/media/hero image.webp": "/static/media/hero image.3c7ccd3b1dddc182aece.webp",
+    "static/media/lapSurg.jpeg": "/static/media/lapSurg.c0a19cdba04a4146a11d.jpeg",
     "static/media/istockphoto-1401699334-170667a.jpg": "/static/media/istockphoto-1401699334-170667a.5d713a1b6ff66497dd6d.jpg",
     "static/media/Administrator.jpg": "/static/media/Administrator.4cd8841cf1af1a02aa42.jpg",
     "static/media/robot.webp": "/static/media/robot.b6a42ae16293474eb6b3.webp",
     "static/media/unnamed.png": "/static/media/unnamed.ddb6dd004c1394fd465d.png",
-    "static/media/surgeon.jpeg": "/static/media/surgeon.688cec15d9afb4f291a7.jpeg",
     "static/media/team.jpg": "/static/media/team.a80b068d132bc54486a7.jpg",
     "static/media/unnamed (1).png": "/static/media/unnamed (1).0569c92958c2ed78e052.png",
     "static/media/sjHeadshot.webp": "/static/media/sjHeadshot.360a84edb290920edc96.webp",
     "index.html": "/index.html",
     "main.1f25dd02.css.map": "/static/css/main.1f25dd02.css.map",
-    "main.1c3ac8f3.js.map": "/static/js/main.1c3ac8f3.js.map"
+    "main.e4cf0a79.js.map": "/static/js/main.e4cf0a79.js.map"
   },
   "entrypoints": [
     "static/css/main.1f25dd02.css",
-    "static/js/main.1c3ac8f3.js"
+    "static/js/main.e4cf0a79.js"
   ]
 }

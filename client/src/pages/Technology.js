@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import visibot from '../assets/images/VISIBOT.png'
 import React, { useRef, useEffect } from 'react'
 import administrator from '../assets/images/Administrator.jpg'
-import surgeon from '../assets/images/surgeon.jpeg'
+import surgeon from '../assets/images/lapSurg.jpeg'
 import team from '../assets/images/team.jpg'
 import patient from '../assets/images/patient.jpg'
 import fifthArm1 from '../assets/images/fifthArm1.webp'
