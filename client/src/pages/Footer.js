@@ -12,18 +12,18 @@ export default function Footer() {
             <section className=''>
                 <MDBContainer className='text-center text-md-start mt-5'>
                     <MDBRow className='mt-3'>
-                        <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
-                            <h6 className='text-uppercase fw-bold mb-4'>
+                        <MDBCol md='12' lg='4' xl='4' className='mx-auto mb-4 footerCol'>
+                            {/* <h6 className='text-uppercase fw-bold mb-4'>
                                 <MDBIcon color='secondary' icon='gem' className='me-3' />
                                 Platform Innovations
-                            </h6>
-                            <image className='footerLogo' src={logo} alt="logo"></image>
+                            </h6> */}
+                            <img className='footerLogo' src={logo} alt="logo"></img>
                             {/* <p>
                                 An early-stage medical device company perfecting and commercializing autonomous, disposable and miniaturized devices for minimally invasive surgery
                             </p> */}
                         </MDBCol>
 
-                        <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+                        <MDBCol md='12' lg='4' xl='4' className='mx-auto mb-4 footerCol'>
                             <h6 className='text-uppercase fw-bold mb-4'>Links</h6>
                             <p>
                                 <a href='/technology' className='text-reset'>
@@ -47,7 +47,7 @@ export default function Footer() {
                             </p>
                         </MDBCol>
 
-                        <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+                        <MDBCol md='12' lg='4' xl='4' className='mx-auto mb-4 footerCol'>
                             <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
 
                             <p>
