@@ -1,5 +1,6 @@
 {
   "name": "platform-technologies",
+  "homepage": "https://platforminnovations.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

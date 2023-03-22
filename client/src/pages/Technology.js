@@ -50,25 +50,23 @@ export default function Technology() {
     return (
         <>
             <div className="header">
-                <h1>Novell Curved Suction Irrigation Tip</h1>
+                <h1>Novell Adjustable Curved Suction Irrigation Tip</h1>
             </div>
 
             <Container className="techContainer">
                 <Row className="row">
-                    <div>
+                    {/* <div>
                         <h4>
                             A novel laparoscopic variable Curved suction irrigation tip
                         </h4>
-                    </div>
+                    </div> */}
 
                     <Col className="box" xl={4} md={6}>
                         <img className="techAdmin" src={challenge}></img>
                         <h3>Challenges</h3>
                         <ul className="description">
 
-                            <p>Patient anatomy can prevent access of suction/irrigation to surgical regions and capitalize interference. With other surgical instruments, patients' organs block visibility and surgical dissection can present difficult orientations. When bleeding occurs, rapid visualization
-
-                                at the bleeding site is critical.</p>
+                            <p>Patient anatomy and multiple surgical instrumentation can prevent direct visualization and access of suction/irrigation creating difficult orientations for dissection. When bleeding occurs, accurate suction/irrigation at the site is critical.</p>
                         </ul>
                     </Col>
 
@@ -111,7 +109,7 @@ export default function Technology() {
 
             <Container className='techSlideCont'>
                 <img className='techSlideImg' src={heroImg} alt='person doing stuff'></img>
-                <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>this text will never repeat!!!!!</span>
+                {/* <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>this text will never repeat!!!!!</span> */}
             </Container>
 
 
@@ -135,19 +133,20 @@ export default function Technology() {
                         <h3>Surgeons</h3>
                         <ul className="description">
                             <li>Surgeon regains control of image</li>
-                            <p>No camera holder required</p>
-                            <p>Automated pan/tilt</p>
-                            <li>Camera may be positioned anywhere withing the abdomen for optimal viewing</li>
+                            <p>No Surgical Assistant required to hold the camera</p>
                             <br></br>
-                            <li>No camera for fogging or lens cleaning</li>
-                            <p>Distal LED's = No fogging</p>
-                            <p>Lens washing feature</p>
-                            <li>First use image quality each case</li>
-                            <p>Disposable</p>
-                            <li>Reduced ports x1</li>
-                            <p>Camera port becomes an instrument port</p>
-                            <li>Need laparoscopic image with camera holder</li>
-                            <p>No camera removal required for lens cleaning</p>
+                            <li>Camera may be positioned and tethered withing the abdomen</li>
+                            <p>AI or manual control of pan and tilt</p>
+                            <br></br>
+                            <li>Reduction of 1 working port</li>
+                            <p>If tethered, camera port becomes free working port</p>
+                            <br></br>
+                            <li>No camera fogging or removal for lens cleaning</li>
+                            <p>LED's and built in lens wash system</p>
+                            <br></br>
+                            <li>First use image quality every procedure</li>
+                            <p>Disposable/single use</p>
+                            
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
@@ -167,13 +166,13 @@ export default function Technology() {
                         <img className="techAdmin" src={administrator}></img>
                         <h3>Administration</h3>
                         <ul className="description">
-                            <li>Reduce staffing requirement</li>
-                            <p>1 less FTE per lapar</p>
-                            <li>Cost savings per procedure</li>
-                            <p>Reduced procedure time, OR time, supplies, capital equipment and service contracts</p>
-                            <li>Decreased risk to patient</li>
-                            <p>1 less incision</p>
-                            <p>No reprocessed devices</p>
+                            <li>No Surgical Assistant required to hold the camera</li>
+                            <p>This FTE can be repurposed</p>
+                            <br></br>
+                            <li>No reprocessing time or expense</li>
+                            <br></br>
+                            
+                            
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
@@ -181,9 +180,12 @@ export default function Technology() {
                         <h3>Patients</h3>
                         <ul className="description">
                             <li>Less invasive option</li>
+                            <br></br>
                             <li>Less infection risk</li>
+                            <br></br>
                             <li>One less incision</li>
-                            <li>Better visualization of pathology</li>
+                            <br></br>
+                            <li>Single use for optimal visualization</li>
                         </ul>
                     </Col>
                     <Col className="bottomTxt" xl={12}>

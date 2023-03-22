@@ -7,3 +7,6 @@
 .text-md-start {
     text-align: center!important;
 }
+.footerLogo {
+    flex-shrink: inherit;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import '../assets/css/App.css'
 import '../assets/css/Footer.css'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit'
+import logo from "../assets/images/Picture1.png"
 
 export default function Footer() {
     return (
@@ -14,8 +15,9 @@ export default function Footer() {
                         <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
                             <h6 className='text-uppercase fw-bold mb-4'>
                                 <MDBIcon color='secondary' icon='gem' className='me-3' />
-                                Platform Technologies
+                                Platform Innovations
                             </h6>
+                            <image className='footerLogo' src={logo} alt="logo"></image>
                             {/* <p>
                                 An early-stage medical device company perfecting and commercializing autonomous, disposable and miniaturized devices for minimally invasive surgery
                             </p> */}
@@ -51,19 +53,19 @@ export default function Footer() {
                             <p>
                                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
                                 <a href='mailto:Sjones@platformtechnologies.net'>
-                                    Sjones@platformtechnologies.net
+                                    Sjones@platforminnovations.com
                                 </a>
                             </p>
                             <p>
                                 <MDBIcon color='secondary' icon='phone' className='me-3' />
                                 <a href='tel:(800)571-2222'>
-                                    Office Number: (800)571-2222
+                                    (239) 302-1680
                                 </a>
                             </p>
                             <p>
                                 <MDBIcon color='secondary' icon='print' className='me-3' />
                                 <a target="_blank" href='https://maps.google.com/maps?q=4851+Tamiami+Trail+N+Suite+200,+Naples,+FL+34103'>
-                                    Address: 4851 Tamiami Trail N Suite 200, Naples, FL 34103
+                                   4851 Tamiami Trail N Suite 200, Naples, FL 34103
                                 </a>
                             </p>
                         </MDBCol>
