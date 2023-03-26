@@ -75,7 +75,7 @@ export default function Contact() {
             </Row>
 
 
-            <Row>
+            {/* <Row>
               <Col xl={12}>
                 <Form.Group className="contactInput" controlId="formSuffix">
                   <Form.Select className="suffixDropDown" name="suffix" aria-label="Default select example">
@@ -90,7 +90,7 @@ export default function Contact() {
                   </Form.Select>
                 </Form.Group>
               </Col>
-            </Row>
+            </Row> */}
 
             <Row>
               <Col xl={12}>
@@ -112,7 +112,7 @@ export default function Contact() {
             <Row>
               <Col xl={12}>
                 <Form.Group className="contactInput" controlId="formAffiliation">
-                  <Form.Control required type="text" name="affiliation" placeholder="Please tell us your role within Healthcare" />
+                  <Form.Control type="text" name="affiliation" placeholder="Please tell us your role within Healthcare" />
                 </Form.Group>
               </Col>
             </Row>

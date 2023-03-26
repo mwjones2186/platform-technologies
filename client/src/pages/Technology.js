@@ -15,7 +15,7 @@ import robot from '../assets/images/robot.webp'
 import challenge from '../assets/images/challengeSurgery.jpg'
 import VisibotModal from '../components/VisibotModal';
 import heroImg from '../assets/images/hero image.webp'
-
+import robotDoc from '../assets/images/RobotDoc.webp'
 
 
 export default function Technology() {
@@ -31,21 +31,21 @@ export default function Technology() {
         txt5: 'text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text',
     }
 
-    function ChangeTxt({ techSlideObj }) {
-        let index = 0;
-        useEffect(() => {
-            const intervalId = setInterval(() => {
-                const keys = Object.keys(techSlideObj);
-                const key = keys[index % keys.length];
-                textRef.current.innerText = techSlideObj[key];
-                index++;
-                // if you want to change interval at which text changes, change number below
-            }, 5000);
+    // function ChangeTxt({ techSlideObj }) {
+    //     let index = 0;
+    //     useEffect(() => {
+    //         const intervalId = setInterval(() => {
+    //             const keys = Object.keys(techSlideObj);
+    //             const key = keys[index % keys.length];
+    //             textRef.current.innerText = techSlideObj[key];
+    //             index++;
+    //             // if you want to change interval at which text changes, change number below
+    //         }, 5000);
 
-            return () => clearInterval(intervalId);
-        }, [techSlideObj]);
-    }
-    ChangeTxt({techSlideObj})
+    //         return () => clearInterval(intervalId);
+    //     }, [techSlideObj]);
+    // }
+    // ChangeTxt({techSlideObj})
 
     return (
         <>
@@ -71,7 +71,7 @@ export default function Technology() {
                     </Col>
 
                     <Col className="box" xl={4} md={6}>
-                        <img className="techTeam" src={robot}></img>
+                        <img className="techTeam" src={robotDoc}></img>
                         <h3>Current Systems</h3>
                         <ul className="description">
 
@@ -83,7 +83,7 @@ export default function Technology() {
                         <img className="techPatient" src={fifthArm1}></img>
                         <h3>The Solution</h3>
                         <ul className="description">
-                            <p>A Versatile "Sheath" over an existing rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
+                            <p>A versitile sheath over an existing rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy and instrumentation to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
 
                             </p>
                         </ul>
@@ -93,7 +93,7 @@ export default function Technology() {
                         <img className="techSurgeon" src={fifthArm2} alt="surgeon"></img>
                         <h3>Universal Multiplanar Suction Irrigation</h3>
                         <ul className="description">
-                            <p>The Platform Technologies Surgical Multiplanar Suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
+                            <p>The Platform Innovations surgical multiplanar suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
 
                                 access.</p>
 
@@ -110,7 +110,7 @@ export default function Technology() {
             <Container className='techSlideCont'>
                 <img className='techSlideImg' src={heroImg} alt='person doing stuff'></img>
                 {/* <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>this text will never repeat!!!!!</span> */}
-            </Container>
+            </Container> 
 
 
 
@@ -171,8 +171,9 @@ export default function Technology() {
                             <br></br>
                             <li>No reprocessing time or expense</li>
                             <br></br>
-                            
-                            
+                            <li>Fixed operational budget cost</li>
+                            <br></br>
+                            <li>Decreases capital equipment and service contract requirements</li>
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>

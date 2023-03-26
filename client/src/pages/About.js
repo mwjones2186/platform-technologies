@@ -71,7 +71,7 @@ export default function About() {
                         </img>
                         <h4>Steve Jones</h4>
                         <div className='hiddenDiv visibleDiv' id='member1'>
-                            <h5>President and CEO / Chief Executive Officer</h5>
+                            <h5>President and CEO</h5>
                             <ul className='memberUl'>
                                 <h6>24+ Years Medical Device Experieince:</h6>
 
