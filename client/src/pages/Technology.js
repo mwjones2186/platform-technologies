@@ -137,7 +137,7 @@ export default function Technology() {
                             <li>Surgeon regains control of image</li>
                             <p>No camera holder required</p>
                             <p>Automated pan/tilt</p>
-                            <li>Camera may be positioned anywhere withing the abdomen for optimal viewing</li>
+                            <li>Camera may be positioned anywhere within the abdomen for optimal viewing</li>
                             <br></br>
                             <li>No camera for fogging or lens cleaning</li>
                             <p>Distal LED's = No fogging</p>
