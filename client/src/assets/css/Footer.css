@@ -4,6 +4,26 @@
     color: white;
 }
 
+.footer h6 {
+    font-size: 20px;
+}
+
 .text-md-start {
     text-align: center!important;
+}
+.footerLogo {
+    position: relative;
+    width: 300px;
+    top: 30px;
+}
+
+
+@media (max-width: 992px) {
+    .footerLogo {
+        top: 0px;
+    }
+
+    .footerCol {
+        margin: 25px 0;
+    }
 }

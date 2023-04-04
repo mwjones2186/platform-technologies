@@ -11,7 +11,7 @@ export default function Patents() {
                 Numerous US and OUS patents covering both the Novell Curved Suction Irrigation Tip and Visibot devices and methods.
                 </h3>
                 <h4>
-                    For more information about the patents, please contact, sjones@platformtechnologies.com
+                    For more information about the patents, please contact, sjones@platforminnovations.com
                 </h4>
             </div>
         </>

@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 import visibot from '../assets/images/VISIBOT.png'
 import React, { useRef, useEffect } from 'react'
 import administrator from '../assets/images/Administrator.jpg'
-import surgeon from '../assets/images/surgeon.jpeg'
+import surgeon from '../assets/images/lapSurg.jpeg'
 import team from '../assets/images/team.jpg'
 import patient from '../assets/images/patient.jpg'
 import fifthArm1 from '../assets/images/fifthArm1.webp'
@@ -15,7 +15,7 @@ import robot from '../assets/images/robot.webp'
 import challenge from '../assets/images/challengeSurgery.jpg'
 import VisibotModal from '../components/VisibotModal';
 import heroImg from '../assets/images/hero image.webp'
-
+import robotDoc from '../assets/images/RobotDoc.webp'
 
 
 export default function Technology() {
@@ -31,49 +31,47 @@ export default function Technology() {
         txt5: 'text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text text 5 text text text text',
     }
 
-    function ChangeTxt({ techSlideObj }) {
-        let index = 0;
-        useEffect(() => {
-            const intervalId = setInterval(() => {
-                const keys = Object.keys(techSlideObj);
-                const key = keys[index % keys.length];
-                textRef.current.innerText = techSlideObj[key];
-                index++;
-                // if you want to change interval at which text changes, change number below
-            }, 5000);
+    // function ChangeTxt({ techSlideObj }) {
+    //     let index = 0;
+    //     useEffect(() => {
+    //         const intervalId = setInterval(() => {
+    //             const keys = Object.keys(techSlideObj);
+    //             const key = keys[index % keys.length];
+    //             textRef.current.innerText = techSlideObj[key];
+    //             index++;
+    //             // if you want to change interval at which text changes, change number below
+    //         }, 5000);
 
-            return () => clearInterval(intervalId);
-        }, [techSlideObj]);
-    }
-    ChangeTxt({techSlideObj})
+    //         return () => clearInterval(intervalId);
+    //     }, [techSlideObj]);
+    // }
+    // ChangeTxt({techSlideObj})
 
     return (
         <>
             <div className="header">
-                <h1>Novell Curved Suction Irrigation Tip</h1>
+                <h1>Novell Adjustable Curved Suction Irrigation Tip</h1>
             </div>
 
             <Container className="techContainer">
                 <Row className="row">
-                    <div>
+                    {/* <div>
                         <h4>
                             A novel laparoscopic variable Curved suction irrigation tip
                         </h4>
-                    </div>
+                    </div> */}
 
                     <Col className="box" xl={4} md={6}>
                         <img className="techAdmin" src={challenge}></img>
                         <h3>Challenges</h3>
                         <ul className="description">
 
-                            <p>Patient anatomy can prevent access of suction/irrigation to surgical regions and capitalize interference. With other surgical instruments, patients' organs block visibility and surgical dissection can present difficult orientations. When bleeding occurs, rapid visualization
-
-                                at the bleeding site is critical.</p>
+                            <p>Patient anatomy and multiple surgical instrumentation can prevent direct visualization and access of suction/irrigation creating difficult orientations for dissection. When bleeding occurs, accurate suction/irrigation at the site is critical.</p>
                         </ul>
                     </Col>
 
                     <Col className="box" xl={4} md={6}>
-                        <img className="techTeam" src={robot}></img>
+                        <img className="techTeam" src={robotDoc}></img>
                         <h3>Current Systems</h3>
                         <ul className="description">
 
@@ -85,7 +83,7 @@ export default function Technology() {
                         <img className="techPatient" src={fifthArm1}></img>
                         <h3>The Solution</h3>
                         <ul className="description">
-                            <p>A Versatile "Sheath" over an existing rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
+                            <p>A versitile sheath over an existing rigid suction/irrigation shaft. The Patented, full anatomical access movement bends around patient anatomy and instrumentation to consistently eliminate time consuming work arounds while retaining all straight rigid tip function.
 
                             </p>
                         </ul>
@@ -95,7 +93,7 @@ export default function Technology() {
                         <img className="techSurgeon" src={fifthArm2} alt="surgeon"></img>
                         <h3>Universal Multiplanar Suction Irrigation</h3>
                         <ul className="description">
-                            <p>The Platform Technologies Surgical Multiplanar Suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
+                            <p>The Platform Innovations surgical multiplanar suction improves surgical site visibility, minimizing surgical time by eliminating workarounds necessitated by poor suction/irrigation
 
                                 access.</p>
 
@@ -111,8 +109,8 @@ export default function Technology() {
 
             <Container className='techSlideCont'>
                 <img className='techSlideImg' src={heroImg} alt='person doing stuff'></img>
-                <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>this text will never repeat!!!!!</span>
-            </Container>
+                {/* <span ref={textRef} id='techSlideTxt' className='techSlideTxt'>this text will never repeat!!!!!</span> */}
+            </Container> 
 
 
 
@@ -135,19 +133,20 @@ export default function Technology() {
                         <h3>Surgeons</h3>
                         <ul className="description">
                             <li>Surgeon regains control of image</li>
-                            <p>No camera holder required</p>
-                            <p>Automated pan/tilt</p>
-                            <li>Camera may be positioned anywhere within the abdomen for optimal viewing</li>
+                            <p>No Surgical Assistant required to hold the camera</p>
                             <br></br>
-                            <li>No camera for fogging or lens cleaning</li>
-                            <p>Distal LED's = No fogging</p>
-                            <p>Lens washing feature</p>
-                            <li>First use image quality each case</li>
-                            <p>Disposable</p>
-                            <li>Reduced ports x1</li>
-                            <p>Camera port becomes an instrument port</p>
-                            <li>Need laparoscopic image with camera holder</li>
-                            <p>No camera removal required for lens cleaning</p>
+                            <li>Camera may be positioned and tethered withing the abdomen</li>
+                            <p>AI or manual control of pan and tilt</p>
+                            <br></br>
+                            <li>Reduction of 1 working port</li>
+                            <p>If tethered, camera port becomes free working port</p>
+                            <br></br>
+                            <li>No camera fogging or removal for lens cleaning</li>
+                            <p>LED's and built in lens wash system</p>
+                            <br></br>
+                            <li>First use image quality every procedure</li>
+                            <p>Disposable/single use</p>
+                            
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
@@ -167,13 +166,14 @@ export default function Technology() {
                         <img className="techAdmin" src={administrator}></img>
                         <h3>Administration</h3>
                         <ul className="description">
-                            <li>Reduce staffing requirement</li>
-                            <p>1 less FTE per lapar</p>
-                            <li>Cost savings per procedure</li>
-                            <p>Reduced procedure time, OR time, supplies, capital equipment and service contracts</p>
-                            <li>Decreased risk to patient</li>
-                            <p>1 less incision</p>
-                            <p>No reprocessed devices</p>
+                            <li>No Surgical Assistant required to hold the camera</li>
+                            <p>This FTE can be repurposed</p>
+                            <br></br>
+                            <li>No reprocessing time or expense</li>
+                            <br></br>
+                            <li>Fixed operational budget cost</li>
+                            <br></br>
+                            <li>Decreases capital equipment and service contract requirements</li>
                         </ul>
                     </Col>
                     <Col className="box" xl={4} md={6}>
@@ -181,9 +181,12 @@ export default function Technology() {
                         <h3>Patients</h3>
                         <ul className="description">
                             <li>Less invasive option</li>
+                            <br></br>
                             <li>Less infection risk</li>
+                            <br></br>
                             <li>One less incision</li>
-                            <li>Better visualization of pathology</li>
+                            <br></br>
+                            <li>Single use for optimal visualization</li>
                         </ul>
                     </Col>
                     <Col className="bottomTxt" xl={12}>

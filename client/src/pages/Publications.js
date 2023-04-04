@@ -10,7 +10,7 @@ export default function Publications() {
                 <Container className="pubMainTxt">
                     <h1>Publications</h1>
                     <h3>Publications report on both the development of the Visibot technology and pre-clinical trials demonstrating proof of concept</h3>
-                    <h5>For more information please reach out to us at sjones@platform-imaging.com</h5>
+                    <h5>For more information please reach out to us at sjones@platforminnovations.com</h5>
                 </Container>
             </div>
 

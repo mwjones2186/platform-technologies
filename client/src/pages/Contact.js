@@ -46,9 +46,9 @@ export default function Contact() {
             <p>
               Want to get in touch? Fill out the form and we will get in touch. Let us know how we can help!
             </p>
-            <h3>Need to place an order?</h3>
+            {/* <h3>Need to place an order?</h3>
             {/* need to switch the href to wherever their website is to place order */}
-            <Button className="placeOrderBtn" href="/"> Click Here!</Button>
+            {/* <Button className="placeOrderBtn" href="/"> Click Here!</Button> */}
           </div>
         </Col>
 
@@ -75,7 +75,7 @@ export default function Contact() {
             </Row>
 
 
-            <Row>
+            {/* <Row>
               <Col xl={12}>
                 <Form.Group className="contactInput" controlId="formSuffix">
                   <Form.Select className="suffixDropDown" name="suffix" aria-label="Default select example">
@@ -90,7 +90,7 @@ export default function Contact() {
                   </Form.Select>
                 </Form.Group>
               </Col>
-            </Row>
+            </Row> */}
 
             <Row>
               <Col xl={12}>
@@ -112,7 +112,7 @@ export default function Contact() {
             <Row>
               <Col xl={12}>
                 <Form.Group className="contactInput" controlId="formAffiliation">
-                  <Form.Control required type="text" name="affiliation" placeholder="Please tell us your role within Healthcare" />
+                  <Form.Control type="text" name="affiliation" placeholder="Please tell us your role within Healthcare" />
                 </Form.Group>
               </Col>
             </Row>

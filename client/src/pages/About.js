@@ -25,7 +25,7 @@ export default function About() {
                 <Row className='row2'>
                     <Col className='text' xl={7} sm={12}>
                         <p className='par1'>
-                            Platform Technologies is identifying pain points in minimally invasive surgery (MIS) and locating and developing product solutions to help provide superior outcomes for the surgeon, benefitting the patient and healthcare facility.
+                            Platform Innovations is identifying pain points in minimally invasive surgery (MIS) and locating and developing product solutions to help provide superior outcomes for the surgeon, patient and healthcare facility.
                         </p>
                     </Col>
                     <Col className='imgCont' xl={5} sm={12}>
@@ -47,7 +47,7 @@ export default function About() {
 
                 <Col className='text' xl={12} sm={12}>
                     <p className='par3'>
-                        We invite you to learn more about Platform Technologies and our commitment to improving outcomes in minimally invasive surgery.
+                        We invite you to learn more about Platform Innovations and our commitment to improving outcomes in minimally invasive surgery.
                     </p>
                 </Col>
 
@@ -58,7 +58,7 @@ export default function About() {
                 <div className='teamTxt'>
                     <h2>Meet Our Team</h2>
                     <p>
-                        Each member of the team has extensive, relevent experience in the varius aspects of medical technology development and commercialization. It is this collective expertise that provides strong leadership for Platform technologies. Among the members of the management team, there is overlapping ability to identify current issues, develop or locate subsequent solutions, manage intellectual property, regulatory approval and the successful commercialization process.
+                        Each member of the team has extensive, relevent experience in the varius aspects of medical technology development and commercialization. It is this collective expertise that provides strong leadership for Platform Innovations. Among the members of the management team, there is overlapping ability to identify current issues, develop or locate subsequent solutions, manage intellectual property, regulatory approval and the successful commercialization process.
                     </p>
                 </div>
 
@@ -71,7 +71,7 @@ export default function About() {
                         </img>
                         <h4>Steve Jones</h4>
                         <div className='hiddenDiv visibleDiv' id='member1'>
-                            <h5>President and CEO / Chief Executive Officer</h5>
+                            <h5>President and CEO</h5>
                             <ul className='memberUl'>
                                 <h6>24+ Years Medical Device Experieince:</h6>
 
