@@ -135,7 +135,7 @@ export default function Technology() {
                             <li>Surgeon regains control of image</li>
                             <p>No Surgical Assistant required to hold the camera</p>
                             <br></br>
-                            <li>Camera may be positioned and tethered withing the abdomen</li>
+                            <li>Camera may be positioned and tethered within the abdomen</li>
                             <p>AI or manual control of pan and tilt</p>
                             <br></br>
                             <li>Reduction of 1 working port</li>
