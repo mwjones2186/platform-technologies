@@ -42,24 +42,24 @@ export default function Contact() {
       <Row className="contanier contact-page">
         <Col className="leftText" xl={6} lg={6} sm={12}>
           <div>
-            <h1>How Can We Help?</h1>
-            <p>
-              Want to get in touch? Fill out the form and we will get in touch. Let us know how we can help!
-            </p>
+            <h1>Want more information?</h1>
+            <h4>
+               Fill out the form and we will get in touch. We look forward to connecting!
+            </h4>
           </div>
         <br></br>
         <br></br>
           <div>
             <h3>Need to place an order?</h3>
             <p>Call our Customer Support line at</p>
-            <p>(855) 741-2990</p>
+            <h3>(855) 741-2990</h3>
             {/* need to switch the href to wherever their website is to place order */}
             {/* <Button className="placeOrderBtn" href="/"> Click Here!</Button> */}
           </div>
         </Col>
 
         <Col xl={6} lg={6} xs={12} className="text-zone">
-          <h1>GET IN TOUCH</h1>
+          <h1>Contact Us</h1>
 
           <Form className="contactForm" ref={refForm} onSubmit={sendEmail} noValidate validated={validated} >
             <Row>
