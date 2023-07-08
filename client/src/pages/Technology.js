@@ -126,7 +126,6 @@ export default function Technology() {
                         </h4>
                     </div>
                     <img className='visibotPicture' src={visibot}></img>
-
                     
                     <Col className="box" xl={3} md={6}>
                         <img className="techAdmin" src={administrator}></img>
