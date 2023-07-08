@@ -23,7 +23,7 @@ export default function Contact() {
       e.preventDefault();
       e.stopPropagation();
     } else {
-      emailjs.sendForm('service_ohv8iw6', 'template_wyjo3jx', refForm.current, 'nd5F-JQfuBSg3CQaS')
+      emailjs.sendForm('service_ap3o93d', 'template_4gje7b8', refForm.current, 'k5AhaNsy1rpcFQlDK')
         .then(() => {
           alert('Message successfully sent!');
           e.target.reset();
