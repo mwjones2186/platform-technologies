@@ -127,47 +127,8 @@ export default function Technology() {
                     </div>
                     <img className='visibotPicture' src={visibot}></img>
 
-<<<<<<< HEAD
                     
                     <Col className="box" xl={3} md={6}>
-=======
-
-                    <Col className="box" xl={4} md={6}>
-                        <img className="techSurgeon" src={surgeon} alt="surgeon"></img>
-                        <h3>Surgeons</h3>
-                        <ul className="description">
-                            <li>Surgeon regains control of image</li>
-                            <p>No Surgical Assistant required to hold the camera</p>
-                            <br></br>
-                            <li>Camera may be positioned and tethered within the abdomen</li>
-                            <p>AI or manual control of pan and tilt</p>
-                            <br></br>
-                            <li>Reduction of 1 working port</li>
-                            <p>If tethered, camera port becomes free working port</p>
-                            <br></br>
-                            <li>No camera fogging or removal for lens cleaning</li>
-                            <p>LED's and built in lens wash system</p>
-                            <br></br>
-                            <li>First use image quality every procedure</li>
-                            <p>Disposable/single use</p>
-                            
-                        </ul>
-                    </Col>
-                    <Col className="box" xl={4} md={6}>
-                        <img className="techTeam" src={team}></img>
-                        <h3>Surgical Staff</h3>
-                        <ul className="description">
-                            <li>No camera holder required</li>
-                            <p>FTE can be repurposed</p>
-                            <li>Saves time and money</li>
-                            <p>Simple equipment setup/tear down</p>
-                            <p>Single componant/disposable</p>
-                            <p>No reprocessing</p>
-                            <p>1 less incision and trocar</p>
-                        </ul>
-                    </Col>
-                    <Col className="box" xl={4} md={6}>
->>>>>>> f68053b01cb04adf499d7f2a7a224dc8a51d4abb
                         <img className="techAdmin" src={administrator}></img>
                         <h3>Administration</h3>
                         <ul className="description">
