@@ -46,7 +46,13 @@ export default function Contact() {
             <p>
               Want to get in touch? Fill out the form and we will get in touch. Let us know how we can help!
             </p>
-            {/* <h3>Need to place an order?</h3>
+          </div>
+        <br></br>
+        <br></br>
+          <div>
+            <h3>Need to place an order?</h3>
+            <p>Call our Customer Support line at</p>
+            <p>(855) 741-2990</p>
             {/* need to switch the href to wherever their website is to place order */}
             {/* <Button className="placeOrderBtn" href="/"> Click Here!</Button> */}
           </div>

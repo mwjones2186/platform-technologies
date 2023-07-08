@@ -26,8 +26,8 @@
 }
 
 .modal__content {
-  width: 800px;
-  height: 500px;
+  width: 1200px;
+  height: 700px;
   box-shadow: 0px 100px 80px rgba(184, 184, 184, 0.07),
     0px 25.8162px 19px 4px rgba(178, 178, 178, 0.0456112),
     0px 7.779px 7.30492px rgba(0, 0, 0, 0.035),
@@ -53,6 +53,7 @@
   display: flex;
   position: relative;
   bottom: 37px;
+  top: 37px ;
 }
 
 .modal__video-style {

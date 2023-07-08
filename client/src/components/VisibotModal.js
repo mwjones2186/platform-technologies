@@ -48,7 +48,7 @@ export default function VisibotModal() {
                     <iframe 
                     width="1232" 
                     height="620" 
-                    src="https://www.youtube.com/embed/MWg2viWT7Lc" 
+                    src="https://www.youtube.com/embed/yyvDMauV4dc" 
                     title="Platform Innovations Novell ACSIA"  
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

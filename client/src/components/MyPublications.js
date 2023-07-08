@@ -136,7 +136,9 @@ export default function MyPublications() {
       {modal && selectedPublication && (
         <section className="modal__bg" onClick={handleClickOutside}>
           <div className="modal__align">
-          
+          <Button className="modal__close-btn" onClick={closeModal}>
+                Close
+              </Button>
             <div className="modal__content" modal={modal}>
               <div className="modal__video-align">
                 {pdfLoading ? (
@@ -156,9 +158,7 @@ export default function MyPublications() {
                 ></iframe>
                
               </div>
-              <Button className="modal__close-btn" onClick={closeModal}>
-                Close
-              </Button>
+             
             </div>
           </div>
         </section>
