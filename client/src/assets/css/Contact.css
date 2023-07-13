@@ -1,7 +1,12 @@
 .leftText {
     text-align: center;
+    top: 100px;
     padding: 8% 5% 8% 0;
     border-right: 2px solid white;
+}
+.leftContainerText {
+    margin-top: 150px;
+    
 }
 
 .leftText h1 {

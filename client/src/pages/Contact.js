@@ -41,7 +41,7 @@ export default function Contact() {
     <Container>
       <Row className="contanier contact-page">
         <Col className="leftText" xl={6} lg={6} sm={12}>
-          <div>
+          <div className="leftContainerText">
             <h1>Want more information?</h1>
             <h4>
                Fill out the form and we will get in touch. We look forward to connecting!
@@ -50,9 +50,9 @@ export default function Contact() {
         <br></br>
         <br></br>
           <div>
-            <h3>Need to place an order?</h3>
+            {/* <h3>Need to place an order?</h3>
             <p>Call our Customer Support line at</p>
-            <h3>(855) 741-2990</h3>
+            <h3>(855)741-2990</h3> */}
             {/* need to switch the href to wherever their website is to place order */}
             {/* <Button className="placeOrderBtn" href="/"> Click Here!</Button> */}
           </div>
@@ -73,7 +73,7 @@ export default function Contact() {
 
               {/* last name */}
               <Col xl={6} xs={6}>
-                <Form.Group className="contactInput lastName" controlId="formFirstName">
+                <Form.Group className="contactInput lastName" controlId="formLastName">
                   <Form.Control required type="name" name="lastName" placeholder="Last Name" />
                 </Form.Group>
               </Col>
